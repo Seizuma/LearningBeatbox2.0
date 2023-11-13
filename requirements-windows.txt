@@ -1,0 +1,13 @@
+numpy == 1.22.4
+pandas == 1.4.2
+numba == 0.55.2
+matplotlib
+scikit-learn
+python_speech_features
+pyautogui
+pydirectinput
+dragonfly2
+pywin32
+joblib
+torch == 1.11.0
+audiomentations == 0.24.0

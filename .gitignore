@@ -1,0 +1,14 @@
+data/replays/*.csv
+data/replays/audio/*
+!data/replays/.gitkeep
+!data/recordings/.gitkeep
+!data/models/.gitkeep
+!data/output/.gitkeep
+lib/__pycache__/*
+lib/modes/__pycache__/*
+config/__pycache__/*
+__pycache__*
+ffmpeg
+*.pyc
+lib/private/*
+data/README.md
