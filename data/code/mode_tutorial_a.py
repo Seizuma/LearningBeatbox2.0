@@ -47,7 +47,7 @@ class TutorialMode(BaseMode):
             'sounds': ['m'],
             'threshold': {
                 'power': 100000,
-                'percentage': 90,
+                'percentage': 75,
             },
             'throttle': {
                 'm': 0.1
