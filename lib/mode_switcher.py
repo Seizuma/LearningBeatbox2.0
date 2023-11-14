@@ -48,7 +48,7 @@ class ModeSwitcher(object):
             if (path.exists("lib/modes/" + nextMode + ".p")):
                 full_module_name = "lib.modes." + nextMode
             # Use data/code for new users
-            elif (not path.exists("data/code/LearningBeatbox/webapp/" + nextMode + ".py")):
+            elif (not path.exists("data/code/" + nextMode + ".py")):
                 print("")
                 print("---- MODE NOT FOUND ERROR ----")
                 print("Could not find " + nextMode + ", does the " +
@@ -56,7 +56,7 @@ class ModeSwitcher(object):
                 print("------------------------------")
                 exit()
             else:
-                full_module_name = "data.code.LearningBeatbox.webapp." + nextMode
+                full_module_name = "data.code." + nextMode
                 nextModule = importlib.import_module(full_module_name)
 
             module_found = False
