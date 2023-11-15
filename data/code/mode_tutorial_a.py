@@ -80,7 +80,7 @@ class TutorialMode(BaseMode):
                 'percentage': 60,
             },
             'throttle': {
-                'throat bass': 0.1
+                'lips oscilation (from pash kick)': 0.1
             }
         }
     ]
