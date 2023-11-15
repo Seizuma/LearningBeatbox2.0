@@ -7,7 +7,7 @@
 
 <body>
     <h1>Latest Detected Sounds</h1>
-    <ul>
+    <ul id="sounds-list">
         {% for sound in sounds %}
         <li>{{ sound }}</li>
         {% empty %}
@@ -18,7 +18,6 @@
 <script>
 
     document.addEventListener('DOMContentLoaded', function () {
-        // Assuming you have a <ul> with id="sounds-list" in your template
         var ws_scheme = window.location.protocol == "https:" ? "wss" : "ws";
         var soundSocket = new WebSocket(
             ws_scheme + '://' + window.location.host + '/ws/sounds/'
@@ -37,6 +36,7 @@
             console.error('Sound socket closed unexpectedly');
         };
     });
+
 
 </script>
 
