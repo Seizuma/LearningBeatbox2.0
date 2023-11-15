@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Detected Sounds</title>
+</head>
+
+<body>
+    <h1>Latest Detected Sounds</h1>
+    <ul>
+        {% for sound in sounds %}
+        <li>{{ sound }}</li>
+        {% empty %}
+        <li>No sounds detected yet.</li>
+        {% endfor %}
+    </ul>
+</body>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Assuming you have a <ul> with id="sounds-list" in your template
+        var ws_scheme = window.location.protocol == "https:" ? "wss" : "ws";
+        var soundSocket = new WebSocket(
+            ws_scheme + '://' + window.location.host + '/ws/sounds/'
+        );
+
+        soundSocket.onmessage = function (e) {
+            var data = JSON.parse(e.data);
+            var sound = data['message'];
+            var node = document.createElement("LI");
+            var textnode = document.createTextNode(sound);
+            node.appendChild(textnode);
+            document.getElementById("sounds-list").appendChild(node);
+        };
+
+        soundSocket.onclose = function (e) {
+            console.error('Sound socket closed unexpectedly');
+        };
+    });
+
+</script>
+
+</html>
