@@ -1,0 +1,804 @@
+1
+00:00:00,000 --> 00:00:00,015
+Vocalized lips oscilation
+
+2
+00:00:01,785 --> 00:00:08,400
+Vocalized lips oscilation
+
+3
+00:00:09,930 --> 00:00:17,070
+Vocalized lips oscilation
+
+4
+00:00:18,270 --> 00:00:20,130
+Vocalized lips oscilation
+
+5
+00:00:20,895 --> 00:00:22,590
+Vocalized lips oscilation
+
+6
+00:00:22,830 --> 00:00:22,875
+Vocalized lips oscilation
+
+7
+00:00:23,445 --> 00:00:25,305
+Vocalized lips oscilation
+
+8
+00:00:26,100 --> 00:00:27,975
+Vocalized lips oscilation
+
+9
+00:00:28,200 --> 00:00:28,245
+Vocalized lips oscilation
+
+10
+00:00:28,875 --> 00:00:30,555
+Vocalized lips oscilation
+
+11
+00:00:30,660 --> 00:00:30,735
+Vocalized lips oscilation
+
+12
+00:00:30,885 --> 00:00:30,930
+Vocalized lips oscilation
+
+13
+00:00:31,470 --> 00:00:33,285
+Vocalized lips oscilation
+
+14
+00:00:33,405 --> 00:00:33,450
+Vocalized lips oscilation
+
+15
+00:00:33,630 --> 00:00:33,660
+Vocalized lips oscilation
+
+16
+00:00:34,470 --> 00:00:36,630
+Vocalized lips oscilation
+
+17
+00:00:37,425 --> 00:00:39,390
+Vocalized lips oscilation
+
+18
+00:00:39,480 --> 00:00:39,555
+Vocalized lips oscilation
+
+19
+00:00:39,690 --> 00:00:39,750
+Vocalized lips oscilation
+
+20
+00:00:40,455 --> 00:00:42,375
+Vocalized lips oscilation
+
+21
+00:00:42,600 --> 00:00:42,675
+Vocalized lips oscilation
+
+22
+00:00:43,185 --> 00:00:44,955
+Vocalized lips oscilation
+
+23
+00:00:45,195 --> 00:00:45,375
+Vocalized lips oscilation
+
+24
+00:00:45,735 --> 00:00:47,535
+Vocalized lips oscilation
+
+25
+00:00:47,715 --> 00:00:47,805
+Vocalized lips oscilation
+
+26
+00:00:48,225 --> 00:00:48,270
+Vocalized lips oscilation
+
+27
+00:00:48,405 --> 00:00:50,325
+Vocalized lips oscilation
+
+28
+00:00:50,580 --> 00:00:50,655
+Vocalized lips oscilation
+
+29
+00:00:51,090 --> 00:00:53,160
+Vocalized lips oscilation
+
+30
+00:00:53,355 --> 00:00:53,400
+Vocalized lips oscilation
+
+31
+00:00:53,895 --> 00:00:55,950
+Vocalized lips oscilation
+
+32
+00:00:56,160 --> 00:00:56,220
+Vocalized lips oscilation
+
+33
+00:00:56,685 --> 00:00:58,500
+Vocalized lips oscilation
+
+34
+00:00:58,545 --> 00:00:58,605
+Vocalized lips oscilation
+
+35
+00:00:58,770 --> 00:00:58,830
+Vocalized lips oscilation
+
+36
+00:00:59,295 --> 00:01:01,290
+Vocalized lips oscilation
+
+37
+00:01:01,545 --> 00:01:01,605
+Vocalized lips oscilation
+
+38
+00:01:01,980 --> 00:01:04,020
+Vocalized lips oscilation
+
+39
+00:01:04,680 --> 00:01:06,480
+Vocalized lips oscilation
+
+40
+00:01:06,540 --> 00:01:06,600
+Vocalized lips oscilation
+
+41
+00:01:07,140 --> 00:01:08,940
+Vocalized lips oscilation
+
+42
+00:01:09,600 --> 00:01:11,460
+Vocalized lips oscilation
+
+43
+00:01:11,520 --> 00:01:11,565
+Vocalized lips oscilation
+
+44
+00:01:12,120 --> 00:01:13,770
+Vocalized lips oscilation
+
+45
+00:01:13,830 --> 00:01:13,875
+Vocalized lips oscilation
+
+46
+00:01:14,040 --> 00:01:14,100
+Vocalized lips oscilation
+
+47
+00:01:14,415 --> 00:01:16,050
+Vocalized lips oscilation
+
+48
+00:01:16,335 --> 00:01:16,395
+Vocalized lips oscilation
+
+49
+00:01:16,830 --> 00:01:18,360
+Vocalized lips oscilation
+
+50
+00:01:19,050 --> 00:01:20,760
+Vocalized lips oscilation
+
+51
+00:01:21,345 --> 00:01:22,965
+Vocalized lips oscilation
+
+52
+00:01:23,175 --> 00:01:23,235
+Vocalized lips oscilation
+
+53
+00:01:23,385 --> 00:01:23,430
+Vocalized lips oscilation
+
+54
+00:01:23,595 --> 00:01:25,035
+Vocalized lips oscilation
+
+55
+00:01:25,095 --> 00:01:25,155
+Vocalized lips oscilation
+
+56
+00:01:25,725 --> 00:01:27,990
+Vocalized lips oscilation
+
+57
+00:01:28,050 --> 00:01:28,110
+Vocalized lips oscilation
+
+58
+00:01:29,460 --> 00:01:31,635
+Vocalized lips oscilation
+
+59
+00:01:32,925 --> 00:01:32,940
+Vocalized lips oscilation
+
+60
+00:01:34,185 --> 00:01:40,800
+Vocalized lips oscilation
+
+61
+00:01:41,295 --> 00:01:41,340
+Vocalized lips oscilation
+
+62
+00:01:41,760 --> 00:01:48,375
+Vocalized lips oscilation
+
+63
+00:01:49,905 --> 00:01:57,045
+Vocalized lips oscilation
+
+64
+00:01:58,260 --> 00:02:00,105
+Vocalized lips oscilation
+
+65
+00:02:00,870 --> 00:02:02,565
+Vocalized lips oscilation
+
+66
+00:02:02,805 --> 00:02:02,850
+Vocalized lips oscilation
+
+67
+00:02:03,420 --> 00:02:05,280
+Vocalized lips oscilation
+
+68
+00:02:06,075 --> 00:02:07,950
+Vocalized lips oscilation
+
+69
+00:02:08,175 --> 00:02:08,220
+Vocalized lips oscilation
+
+70
+00:02:08,850 --> 00:02:10,530
+Vocalized lips oscilation
+
+71
+00:02:10,635 --> 00:02:10,710
+Vocalized lips oscilation
+
+72
+00:02:10,860 --> 00:02:10,905
+Vocalized lips oscilation
+
+73
+00:02:11,445 --> 00:02:13,260
+Vocalized lips oscilation
+
+74
+00:02:13,380 --> 00:02:13,425
+Vocalized lips oscilation
+
+75
+00:02:13,605 --> 00:02:13,635
+Vocalized lips oscilation
+
+76
+00:02:14,445 --> 00:02:16,605
+Vocalized lips oscilation
+
+77
+00:02:17,400 --> 00:02:19,365
+Vocalized lips oscilation
+
+78
+00:02:19,470 --> 00:02:19,530
+Vocalized lips oscilation
+
+79
+00:02:19,665 --> 00:02:19,725
+Vocalized lips oscilation
+
+80
+00:02:20,430 --> 00:02:22,350
+Vocalized lips oscilation
+
+81
+00:02:22,575 --> 00:02:22,650
+Vocalized lips oscilation
+
+82
+00:02:23,160 --> 00:02:24,930
+Vocalized lips oscilation
+
+83
+00:02:25,170 --> 00:02:25,350
+Vocalized lips oscilation
+
+84
+00:02:25,710 --> 00:02:27,510
+Vocalized lips oscilation
+
+85
+00:02:27,690 --> 00:02:27,780
+Vocalized lips oscilation
+
+86
+00:02:28,200 --> 00:02:28,245
+Vocalized lips oscilation
+
+87
+00:02:28,380 --> 00:02:30,300
+Vocalized lips oscilation
+
+88
+00:02:30,555 --> 00:02:30,630
+Vocalized lips oscilation
+
+89
+00:02:31,065 --> 00:02:33,135
+Vocalized lips oscilation
+
+90
+00:02:33,330 --> 00:02:33,375
+Vocalized lips oscilation
+
+91
+00:02:33,870 --> 00:02:35,925
+Vocalized lips oscilation
+
+92
+00:02:36,135 --> 00:02:36,195
+Vocalized lips oscilation
+
+93
+00:02:36,660 --> 00:02:38,475
+Vocalized lips oscilation
+
+94
+00:02:38,520 --> 00:02:38,580
+Vocalized lips oscilation
+
+95
+00:02:38,745 --> 00:02:38,805
+Vocalized lips oscilation
+
+96
+00:02:39,285 --> 00:02:41,265
+Vocalized lips oscilation
+
+97
+00:02:41,520 --> 00:02:41,580
+Vocalized lips oscilation
+
+98
+00:02:41,955 --> 00:02:43,995
+Vocalized lips oscilation
+
+99
+00:02:44,655 --> 00:02:46,470
+Vocalized lips oscilation
+
+100
+00:02:46,515 --> 00:02:46,590
+Vocalized lips oscilation
+
+101
+00:02:47,115 --> 00:02:48,915
+Vocalized lips oscilation
+
+102
+00:02:49,575 --> 00:02:51,435
+Vocalized lips oscilation
+
+103
+00:02:51,495 --> 00:02:51,540
+Vocalized lips oscilation
+
+104
+00:02:52,095 --> 00:02:53,745
+Vocalized lips oscilation
+
+105
+00:02:53,820 --> 00:02:53,850
+Vocalized lips oscilation
+
+106
+00:02:54,015 --> 00:02:54,075
+Vocalized lips oscilation
+
+107
+00:02:54,390 --> 00:02:56,025
+Vocalized lips oscilation
+
+108
+00:02:56,310 --> 00:02:56,370
+Vocalized lips oscilation
+
+109
+00:02:56,805 --> 00:02:58,335
+Vocalized lips oscilation
+
+110
+00:02:59,025 --> 00:03:00,735
+Vocalized lips oscilation
+
+111
+00:03:01,320 --> 00:03:02,955
+Vocalized lips oscilation
+
+112
+00:03:03,150 --> 00:03:03,210
+Vocalized lips oscilation
+
+113
+00:03:03,360 --> 00:03:03,405
+Vocalized lips oscilation
+
+114
+00:03:03,570 --> 00:03:05,010
+Vocalized lips oscilation
+
+115
+00:03:05,070 --> 00:03:05,130
+Vocalized lips oscilation
+
+116
+00:03:05,700 --> 00:03:07,965
+Vocalized lips oscilation
+
+117
+00:03:08,025 --> 00:03:08,085
+Vocalized lips oscilation
+
+118
+00:03:09,435 --> 00:03:16,050
+Vocalized lips oscilation
+
+119
+00:03:17,580 --> 00:03:24,720
+Vocalized lips oscilation
+
+120
+00:03:25,935 --> 00:03:27,780
+Vocalized lips oscilation
+
+121
+00:03:28,545 --> 00:03:30,240
+Vocalized lips oscilation
+
+122
+00:03:30,480 --> 00:03:30,525
+Vocalized lips oscilation
+
+123
+00:03:31,095 --> 00:03:32,955
+Vocalized lips oscilation
+
+124
+00:03:33,750 --> 00:03:35,625
+Vocalized lips oscilation
+
+125
+00:03:35,850 --> 00:03:35,895
+Vocalized lips oscilation
+
+126
+00:03:36,525 --> 00:03:38,205
+Vocalized lips oscilation
+
+127
+00:03:38,310 --> 00:03:38,385
+Vocalized lips oscilation
+
+128
+00:03:38,535 --> 00:03:38,580
+Vocalized lips oscilation
+
+129
+00:03:39,120 --> 00:03:40,935
+Vocalized lips oscilation
+
+130
+00:03:41,055 --> 00:03:41,100
+Vocalized lips oscilation
+
+131
+00:03:41,280 --> 00:03:41,310
+Vocalized lips oscilation
+
+132
+00:03:42,120 --> 00:03:44,280
+Vocalized lips oscilation
+
+133
+00:03:45,075 --> 00:03:47,040
+Vocalized lips oscilation
+
+134
+00:03:47,145 --> 00:03:47,205
+Vocalized lips oscilation
+
+135
+00:03:47,340 --> 00:03:47,400
+Vocalized lips oscilation
+
+136
+00:03:48,105 --> 00:03:50,025
+Vocalized lips oscilation
+
+137
+00:03:50,250 --> 00:03:50,325
+Vocalized lips oscilation
+
+138
+00:03:50,835 --> 00:03:52,605
+Vocalized lips oscilation
+
+139
+00:03:52,845 --> 00:03:53,025
+Vocalized lips oscilation
+
+140
+00:03:53,385 --> 00:03:55,185
+Vocalized lips oscilation
+
+141
+00:03:55,365 --> 00:03:55,455
+Vocalized lips oscilation
+
+142
+00:03:55,875 --> 00:03:55,920
+Vocalized lips oscilation
+
+143
+00:03:56,055 --> 00:03:57,975
+Vocalized lips oscilation
+
+144
+00:03:58,230 --> 00:03:58,305
+Vocalized lips oscilation
+
+145
+00:03:58,740 --> 00:04:00,810
+Vocalized lips oscilation
+
+146
+00:04:01,005 --> 00:04:01,050
+Vocalized lips oscilation
+
+147
+00:04:01,545 --> 00:04:03,600
+Vocalized lips oscilation
+
+148
+00:04:03,810 --> 00:04:03,870
+Vocalized lips oscilation
+
+149
+00:04:04,335 --> 00:04:06,150
+Vocalized lips oscilation
+
+150
+00:04:06,195 --> 00:04:06,255
+Vocalized lips oscilation
+
+151
+00:04:06,420 --> 00:04:06,480
+Vocalized lips oscilation
+
+152
+00:04:06,960 --> 00:04:08,940
+Vocalized lips oscilation
+
+153
+00:04:09,195 --> 00:04:09,255
+Vocalized lips oscilation
+
+154
+00:04:09,630 --> 00:04:11,670
+Vocalized lips oscilation
+
+155
+00:04:12,330 --> 00:04:14,145
+Vocalized lips oscilation
+
+156
+00:04:14,190 --> 00:04:14,250
+Vocalized lips oscilation
+
+157
+00:04:14,790 --> 00:04:16,590
+Vocalized lips oscilation
+
+158
+00:04:17,250 --> 00:04:19,110
+Vocalized lips oscilation
+
+159
+00:04:19,170 --> 00:04:19,215
+Vocalized lips oscilation
+
+160
+00:04:19,770 --> 00:04:21,420
+Vocalized lips oscilation
+
+161
+00:04:21,495 --> 00:04:21,525
+Vocalized lips oscilation
+
+162
+00:04:21,690 --> 00:04:21,750
+Vocalized lips oscilation
+
+163
+00:04:22,065 --> 00:04:23,700
+Vocalized lips oscilation
+
+164
+00:04:23,985 --> 00:04:24,045
+Vocalized lips oscilation
+
+165
+00:04:24,480 --> 00:04:26,010
+Vocalized lips oscilation
+
+166
+00:04:26,700 --> 00:04:28,410
+Vocalized lips oscilation
+
+167
+00:04:28,995 --> 00:04:30,630
+Vocalized lips oscilation
+
+168
+00:04:30,825 --> 00:04:30,885
+Vocalized lips oscilation
+
+169
+00:04:31,035 --> 00:04:31,080
+Vocalized lips oscilation
+
+170
+00:04:31,245 --> 00:04:32,685
+Vocalized lips oscilation
+
+171
+00:04:32,745 --> 00:04:32,805
+Vocalized lips oscilation
+
+172
+00:04:33,375 --> 00:04:35,640
+Vocalized lips oscilation
+
+173
+00:04:35,700 --> 00:04:35,760
+Vocalized lips oscilation
+
+174
+00:04:37,110 --> 00:04:43,725
+Vocalized lips oscilation
+
+175
+00:04:45,255 --> 00:04:52,395
+Vocalized lips oscilation
+
+176
+00:04:53,610 --> 00:04:55,455
+Vocalized lips oscilation
+
+177
+00:04:56,220 --> 00:04:57,915
+Vocalized lips oscilation
+
+178
+00:04:58,155 --> 00:04:58,200
+Vocalized lips oscilation
+
+179
+00:04:58,770 --> 00:05:00,630
+Vocalized lips oscilation
+
+180
+00:05:01,425 --> 00:05:03,300
+Vocalized lips oscilation
+
+181
+00:05:03,525 --> 00:05:03,570
+Vocalized lips oscilation
+
+182
+00:05:04,200 --> 00:05:05,880
+Vocalized lips oscilation
+
+183
+00:05:05,985 --> 00:05:06,060
+Vocalized lips oscilation
+
+184
+00:05:06,210 --> 00:05:06,255
+Vocalized lips oscilation
+
+185
+00:05:06,795 --> 00:05:08,610
+Vocalized lips oscilation
+
+186
+00:05:08,730 --> 00:05:08,775
+Vocalized lips oscilation
+
+187
+00:05:08,955 --> 00:05:08,985
+Vocalized lips oscilation
+
+188
+00:05:09,795 --> 00:05:11,955
+Vocalized lips oscilation
+
+189
+00:05:12,750 --> 00:05:14,715
+Vocalized lips oscilation
+
+190
+00:05:14,820 --> 00:05:14,880
+Vocalized lips oscilation
+
+191
+00:05:15,015 --> 00:05:15,075
+Vocalized lips oscilation
+
+192
+00:05:15,780 --> 00:05:17,700
+Vocalized lips oscilation
+
+193
+00:05:17,925 --> 00:05:18,000
+Vocalized lips oscilation
+
+194
+00:05:18,510 --> 00:05:20,280
+Vocalized lips oscilation
+
+195
+00:05:20,520 --> 00:05:20,700
+Vocalized lips oscilation
+
+196
+00:05:21,060 --> 00:05:22,860
+Vocalized lips oscilation
+
+197
+00:05:23,040 --> 00:05:23,130
+Vocalized lips oscilation
+
+198
+00:05:23,550 --> 00:05:23,595
+Vocalized lips oscilation
+
+199
+00:05:23,730 --> 00:05:25,650
+Vocalized lips oscilation
+
+200
+00:05:25,905 --> 00:05:25,980
+Vocalized lips oscilation
+
+201
+00:05:26,415 --> 00:05:28,485
+Vocalized lips oscilation
+

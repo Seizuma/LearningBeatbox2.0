@@ -1,0 +1,3068 @@
+1
+00:00:00,000 --> 00:00:00,015
+pressurized hi hat
+
+2
+00:00:01,215 --> 00:00:01,365
+pressurized hi hat
+
+3
+00:00:01,755 --> 00:00:01,905
+pressurized hi hat
+
+4
+00:00:02,325 --> 00:00:03,570
+pressurized hi hat
+
+5
+00:00:03,990 --> 00:00:04,170
+pressurized hi hat
+
+6
+00:00:04,515 --> 00:00:04,680
+pressurized hi hat
+
+7
+00:00:05,085 --> 00:00:05,805
+pressurized hi hat
+
+8
+00:00:06,240 --> 00:00:06,360
+pressurized hi hat
+
+9
+00:00:06,795 --> 00:00:06,900
+pressurized hi hat
+
+10
+00:00:07,365 --> 00:00:07,485
+pressurized hi hat
+
+11
+00:00:07,935 --> 00:00:08,040
+pressurized hi hat
+
+12
+00:00:08,475 --> 00:00:08,595
+pressurized hi hat
+
+13
+00:00:09,045 --> 00:00:09,135
+pressurized hi hat
+
+14
+00:00:09,630 --> 00:00:09,735
+pressurized hi hat
+
+15
+00:00:10,170 --> 00:00:10,260
+pressurized hi hat
+
+16
+00:00:10,755 --> 00:00:10,845
+pressurized hi hat
+
+17
+00:00:11,310 --> 00:00:11,445
+pressurized hi hat
+
+18
+00:00:11,835 --> 00:00:11,955
+pressurized hi hat
+
+19
+00:00:12,390 --> 00:00:12,495
+pressurized hi hat
+
+20
+00:00:12,945 --> 00:00:13,065
+pressurized hi hat
+
+21
+00:00:13,500 --> 00:00:13,650
+pressurized hi hat
+
+22
+00:00:14,070 --> 00:00:14,250
+pressurized hi hat
+
+23
+00:00:14,625 --> 00:00:14,745
+pressurized hi hat
+
+24
+00:00:15,195 --> 00:00:15,300
+pressurized hi hat
+
+25
+00:00:15,750 --> 00:00:15,885
+pressurized hi hat
+
+26
+00:00:16,305 --> 00:00:16,425
+pressurized hi hat
+
+27
+00:00:16,845 --> 00:00:16,965
+pressurized hi hat
+
+28
+00:00:17,415 --> 00:00:17,520
+pressurized hi hat
+
+29
+00:00:17,940 --> 00:00:18,045
+pressurized hi hat
+
+30
+00:00:18,480 --> 00:00:18,600
+pressurized hi hat
+
+31
+00:00:19,065 --> 00:00:19,260
+pressurized hi hat
+
+32
+00:00:19,635 --> 00:00:19,755
+pressurized hi hat
+
+33
+00:00:20,205 --> 00:00:20,340
+pressurized hi hat
+
+34
+00:00:20,790 --> 00:00:20,910
+pressurized hi hat
+
+35
+00:00:21,345 --> 00:00:21,555
+pressurized hi hat
+
+36
+00:00:21,900 --> 00:00:22,050
+pressurized hi hat
+
+37
+00:00:22,470 --> 00:00:22,605
+pressurized hi hat
+
+38
+00:00:23,040 --> 00:00:23,250
+pressurized hi hat
+
+39
+00:00:23,640 --> 00:00:23,760
+pressurized hi hat
+
+40
+00:00:24,090 --> 00:00:24,135
+pressurized hi hat
+
+41
+00:00:24,210 --> 00:00:24,360
+pressurized hi hat
+
+42
+00:00:24,810 --> 00:00:24,900
+pressurized hi hat
+
+43
+00:00:25,350 --> 00:00:25,470
+pressurized hi hat
+
+44
+00:00:25,950 --> 00:00:26,055
+pressurized hi hat
+
+45
+00:00:26,505 --> 00:00:26,595
+pressurized hi hat
+
+46
+00:00:27,105 --> 00:00:27,210
+pressurized hi hat
+
+47
+00:00:27,660 --> 00:00:27,780
+pressurized hi hat
+
+48
+00:00:28,425 --> 00:00:28,500
+pressurized hi hat
+
+49
+00:00:28,710 --> 00:00:28,815
+pressurized hi hat
+
+50
+00:00:29,250 --> 00:00:29,370
+pressurized hi hat
+
+51
+00:00:29,820 --> 00:00:29,940
+pressurized hi hat
+
+52
+00:00:30,390 --> 00:00:30,510
+pressurized hi hat
+
+53
+00:00:30,960 --> 00:00:31,065
+pressurized hi hat
+
+54
+00:00:31,545 --> 00:00:31,665
+pressurized hi hat
+
+55
+00:00:32,130 --> 00:00:32,235
+pressurized hi hat
+
+56
+00:00:32,730 --> 00:00:32,835
+pressurized hi hat
+
+57
+00:00:33,330 --> 00:00:33,435
+pressurized hi hat
+
+58
+00:00:33,885 --> 00:00:34,005
+pressurized hi hat
+
+59
+00:00:34,470 --> 00:00:34,560
+pressurized hi hat
+
+60
+00:00:35,025 --> 00:00:35,130
+pressurized hi hat
+
+61
+00:00:35,640 --> 00:00:35,715
+pressurized hi hat
+
+62
+00:00:36,240 --> 00:00:36,330
+pressurized hi hat
+
+63
+00:00:36,810 --> 00:00:36,885
+pressurized hi hat
+
+64
+00:00:37,395 --> 00:00:37,470
+pressurized hi hat
+
+65
+00:00:37,935 --> 00:00:38,010
+pressurized hi hat
+
+66
+00:00:38,535 --> 00:00:38,640
+pressurized hi hat
+
+67
+00:00:39,135 --> 00:00:39,225
+pressurized hi hat
+
+68
+00:00:39,705 --> 00:00:39,810
+pressurized hi hat
+
+69
+00:00:40,320 --> 00:00:40,425
+pressurized hi hat
+
+70
+00:00:40,875 --> 00:00:40,980
+pressurized hi hat
+
+71
+00:00:41,475 --> 00:00:41,565
+pressurized hi hat
+
+72
+00:00:42,045 --> 00:00:42,150
+pressurized hi hat
+
+73
+00:00:42,645 --> 00:00:42,750
+pressurized hi hat
+
+74
+00:00:43,260 --> 00:00:43,365
+pressurized hi hat
+
+75
+00:00:43,830 --> 00:00:43,950
+pressurized hi hat
+
+76
+00:00:44,400 --> 00:00:44,520
+pressurized hi hat
+
+77
+00:00:45,015 --> 00:00:45,120
+pressurized hi hat
+
+78
+00:00:45,615 --> 00:00:45,720
+pressurized hi hat
+
+79
+00:00:46,215 --> 00:00:46,335
+pressurized hi hat
+
+80
+00:00:46,785 --> 00:00:46,905
+pressurized hi hat
+
+81
+00:00:47,415 --> 00:00:47,505
+pressurized hi hat
+
+82
+00:00:48,015 --> 00:00:48,120
+pressurized hi hat
+
+83
+00:00:48,615 --> 00:00:48,705
+pressurized hi hat
+
+84
+00:00:49,200 --> 00:00:49,305
+pressurized hi hat
+
+85
+00:00:49,800 --> 00:00:49,905
+pressurized hi hat
+
+86
+00:00:50,430 --> 00:00:50,535
+pressurized hi hat
+
+87
+00:00:51,045 --> 00:00:51,150
+pressurized hi hat
+
+88
+00:00:51,660 --> 00:00:51,780
+pressurized hi hat
+
+89
+00:00:52,215 --> 00:00:52,335
+pressurized hi hat
+
+90
+00:00:52,800 --> 00:00:52,935
+pressurized hi hat
+
+91
+00:00:53,415 --> 00:00:53,520
+pressurized hi hat
+
+92
+00:00:54,030 --> 00:00:54,120
+pressurized hi hat
+
+93
+00:00:54,630 --> 00:00:54,735
+pressurized hi hat
+
+94
+00:00:55,215 --> 00:00:55,320
+pressurized hi hat
+
+95
+00:00:55,830 --> 00:00:56,145
+pressurized hi hat
+
+96
+00:00:56,445 --> 00:00:56,565
+pressurized hi hat
+
+97
+00:00:57,015 --> 00:00:57,135
+pressurized hi hat
+
+98
+00:00:57,630 --> 00:00:57,750
+pressurized hi hat
+
+99
+00:00:58,185 --> 00:00:58,350
+pressurized hi hat
+
+100
+00:00:58,845 --> 00:00:58,950
+pressurized hi hat
+
+101
+00:00:59,460 --> 00:00:59,580
+pressurized hi hat
+
+102
+00:01:00,060 --> 00:01:00,285
+pressurized hi hat
+
+103
+00:01:00,675 --> 00:01:00,825
+pressurized hi hat
+
+104
+00:01:01,290 --> 00:01:01,395
+pressurized hi hat
+
+105
+00:01:01,935 --> 00:01:02,025
+pressurized hi hat
+
+106
+00:01:02,535 --> 00:01:02,640
+pressurized hi hat
+
+107
+00:01:03,210 --> 00:01:03,300
+pressurized hi hat
+
+108
+00:01:04,755 --> 00:01:04,875
+pressurized hi hat
+
+109
+00:01:05,310 --> 00:01:05,415
+pressurized hi hat
+
+110
+00:01:05,880 --> 00:01:06,000
+pressurized hi hat
+
+111
+00:01:06,405 --> 00:01:06,525
+pressurized hi hat
+
+112
+00:01:06,975 --> 00:01:07,080
+pressurized hi hat
+
+113
+00:01:07,530 --> 00:01:07,695
+pressurized hi hat
+
+114
+00:01:08,070 --> 00:01:08,190
+pressurized hi hat
+
+115
+00:01:08,640 --> 00:01:08,760
+pressurized hi hat
+
+116
+00:01:08,865 --> 00:01:08,940
+pressurized hi hat
+
+117
+00:01:09,120 --> 00:01:09,330
+pressurized hi hat
+
+118
+00:01:09,750 --> 00:01:09,870
+pressurized hi hat
+
+119
+00:01:10,305 --> 00:01:10,425
+pressurized hi hat
+
+120
+00:01:10,890 --> 00:01:10,995
+pressurized hi hat
+
+121
+00:01:11,460 --> 00:01:11,565
+pressurized hi hat
+
+122
+00:01:12,000 --> 00:01:12,105
+pressurized hi hat
+
+123
+00:01:12,555 --> 00:01:12,645
+pressurized hi hat
+
+124
+00:01:13,140 --> 00:01:13,245
+pressurized hi hat
+
+125
+00:01:13,695 --> 00:01:13,770
+pressurized hi hat
+
+126
+00:01:14,265 --> 00:01:14,370
+pressurized hi hat
+
+127
+00:01:14,820 --> 00:01:14,940
+pressurized hi hat
+
+128
+00:01:15,360 --> 00:01:15,465
+pressurized hi hat
+
+129
+00:01:15,900 --> 00:01:16,005
+pressurized hi hat
+
+130
+00:01:16,455 --> 00:01:16,575
+pressurized hi hat
+
+131
+00:01:17,025 --> 00:01:17,175
+pressurized hi hat
+
+132
+00:01:17,550 --> 00:01:17,775
+pressurized hi hat
+
+133
+00:01:18,135 --> 00:01:18,255
+pressurized hi hat
+
+134
+00:01:18,705 --> 00:01:18,825
+pressurized hi hat
+
+135
+00:01:19,275 --> 00:01:19,395
+pressurized hi hat
+
+136
+00:01:19,830 --> 00:01:19,935
+pressurized hi hat
+
+137
+00:01:20,385 --> 00:01:20,490
+pressurized hi hat
+
+138
+00:01:20,925 --> 00:01:21,045
+pressurized hi hat
+
+139
+00:01:21,450 --> 00:01:21,555
+pressurized hi hat
+
+140
+00:01:22,005 --> 00:01:22,110
+pressurized hi hat
+
+141
+00:01:22,575 --> 00:01:22,770
+pressurized hi hat
+
+142
+00:01:23,145 --> 00:01:23,325
+pressurized hi hat
+
+143
+00:01:23,715 --> 00:01:23,865
+pressurized hi hat
+
+144
+00:01:24,300 --> 00:01:24,420
+pressurized hi hat
+
+145
+00:01:24,870 --> 00:01:25,080
+pressurized hi hat
+
+146
+00:01:25,425 --> 00:01:25,560
+pressurized hi hat
+
+147
+00:01:25,995 --> 00:01:26,130
+pressurized hi hat
+
+148
+00:01:26,550 --> 00:01:26,760
+pressurized hi hat
+
+149
+00:01:27,150 --> 00:01:27,270
+pressurized hi hat
+
+150
+00:01:27,615 --> 00:01:27,660
+pressurized hi hat
+
+151
+00:01:27,735 --> 00:01:27,885
+pressurized hi hat
+
+152
+00:01:28,305 --> 00:01:28,425
+pressurized hi hat
+
+153
+00:01:28,860 --> 00:01:28,980
+pressurized hi hat
+
+154
+00:01:29,475 --> 00:01:29,565
+pressurized hi hat
+
+155
+00:01:30,015 --> 00:01:30,105
+pressurized hi hat
+
+156
+00:01:30,615 --> 00:01:30,720
+pressurized hi hat
+
+157
+00:01:31,170 --> 00:01:31,290
+pressurized hi hat
+
+158
+00:01:31,935 --> 00:01:32,010
+pressurized hi hat
+
+159
+00:01:32,220 --> 00:01:32,340
+pressurized hi hat
+
+160
+00:01:32,760 --> 00:01:32,880
+pressurized hi hat
+
+161
+00:01:33,345 --> 00:01:33,465
+pressurized hi hat
+
+162
+00:01:33,915 --> 00:01:34,020
+pressurized hi hat
+
+163
+00:01:34,485 --> 00:01:34,575
+pressurized hi hat
+
+164
+00:01:35,055 --> 00:01:35,175
+pressurized hi hat
+
+165
+00:01:35,655 --> 00:01:35,745
+pressurized hi hat
+
+166
+00:01:36,255 --> 00:01:36,345
+pressurized hi hat
+
+167
+00:01:36,855 --> 00:01:36,960
+pressurized hi hat
+
+168
+00:01:37,410 --> 00:01:37,515
+pressurized hi hat
+
+169
+00:01:37,980 --> 00:01:38,085
+pressurized hi hat
+
+170
+00:01:38,535 --> 00:01:38,640
+pressurized hi hat
+
+171
+00:01:39,150 --> 00:01:39,240
+pressurized hi hat
+
+172
+00:01:39,750 --> 00:01:39,840
+pressurized hi hat
+
+173
+00:01:40,320 --> 00:01:40,395
+pressurized hi hat
+
+174
+00:01:40,905 --> 00:01:40,995
+pressurized hi hat
+
+175
+00:01:41,445 --> 00:01:41,535
+pressurized hi hat
+
+176
+00:01:42,060 --> 00:01:42,150
+pressurized hi hat
+
+177
+00:01:42,645 --> 00:01:42,735
+pressurized hi hat
+
+178
+00:01:43,215 --> 00:01:43,335
+pressurized hi hat
+
+179
+00:01:43,830 --> 00:01:43,950
+pressurized hi hat
+
+180
+00:01:44,400 --> 00:01:44,490
+pressurized hi hat
+
+181
+00:01:44,985 --> 00:01:45,075
+pressurized hi hat
+
+182
+00:01:45,570 --> 00:01:45,675
+pressurized hi hat
+
+183
+00:01:46,170 --> 00:01:46,275
+pressurized hi hat
+
+184
+00:01:46,785 --> 00:01:46,875
+pressurized hi hat
+
+185
+00:01:47,355 --> 00:01:47,460
+pressurized hi hat
+
+186
+00:01:47,910 --> 00:01:48,030
+pressurized hi hat
+
+187
+00:01:48,540 --> 00:01:48,645
+pressurized hi hat
+
+188
+00:01:49,125 --> 00:01:49,245
+pressurized hi hat
+
+189
+00:01:49,740 --> 00:01:49,845
+pressurized hi hat
+
+190
+00:01:50,310 --> 00:01:50,415
+pressurized hi hat
+
+191
+00:01:50,925 --> 00:01:51,030
+pressurized hi hat
+
+192
+00:01:51,540 --> 00:01:51,645
+pressurized hi hat
+
+193
+00:01:52,140 --> 00:01:52,230
+pressurized hi hat
+
+194
+00:01:52,710 --> 00:01:52,815
+pressurized hi hat
+
+195
+00:01:53,325 --> 00:01:53,415
+pressurized hi hat
+
+196
+00:01:53,940 --> 00:01:54,060
+pressurized hi hat
+
+197
+00:01:54,555 --> 00:01:54,675
+pressurized hi hat
+
+198
+00:01:55,185 --> 00:01:55,305
+pressurized hi hat
+
+199
+00:01:55,725 --> 00:01:55,845
+pressurized hi hat
+
+200
+00:01:56,325 --> 00:01:56,460
+pressurized hi hat
+
+201
+00:01:56,940 --> 00:01:57,030
+pressurized hi hat
+
+202
+00:01:57,555 --> 00:01:57,645
+pressurized hi hat
+
+203
+00:01:58,155 --> 00:01:58,245
+pressurized hi hat
+
+204
+00:01:58,740 --> 00:01:58,830
+pressurized hi hat
+
+205
+00:01:59,340 --> 00:01:59,655
+pressurized hi hat
+
+206
+00:01:59,955 --> 00:02:00,090
+pressurized hi hat
+
+207
+00:02:00,525 --> 00:02:00,645
+pressurized hi hat
+
+208
+00:02:01,155 --> 00:02:01,260
+pressurized hi hat
+
+209
+00:02:01,710 --> 00:02:01,860
+pressurized hi hat
+
+210
+00:02:02,355 --> 00:02:02,475
+pressurized hi hat
+
+211
+00:02:02,970 --> 00:02:03,090
+pressurized hi hat
+
+212
+00:02:03,570 --> 00:02:03,810
+pressurized hi hat
+
+213
+00:02:04,170 --> 00:02:04,335
+pressurized hi hat
+
+214
+00:02:04,800 --> 00:02:04,905
+pressurized hi hat
+
+215
+00:02:05,445 --> 00:02:05,550
+pressurized hi hat
+
+216
+00:02:06,060 --> 00:02:06,150
+pressurized hi hat
+
+217
+00:02:06,720 --> 00:02:06,825
+pressurized hi hat
+
+218
+00:02:08,280 --> 00:02:08,385
+pressurized hi hat
+
+219
+00:02:08,820 --> 00:02:08,940
+pressurized hi hat
+
+220
+00:02:09,390 --> 00:02:09,510
+pressurized hi hat
+
+221
+00:02:09,930 --> 00:02:10,035
+pressurized hi hat
+
+222
+00:02:10,485 --> 00:02:10,605
+pressurized hi hat
+
+223
+00:02:11,055 --> 00:02:11,205
+pressurized hi hat
+
+224
+00:02:11,580 --> 00:02:11,715
+pressurized hi hat
+
+225
+00:02:12,150 --> 00:02:12,285
+pressurized hi hat
+
+226
+00:02:12,390 --> 00:02:12,450
+pressurized hi hat
+
+227
+00:02:12,645 --> 00:02:12,675
+pressurized hi hat
+
+228
+00:02:12,720 --> 00:02:12,840
+pressurized hi hat
+
+229
+00:02:13,275 --> 00:02:13,395
+pressurized hi hat
+
+230
+00:02:13,815 --> 00:02:13,935
+pressurized hi hat
+
+231
+00:02:14,400 --> 00:02:14,505
+pressurized hi hat
+
+232
+00:02:14,970 --> 00:02:15,075
+pressurized hi hat
+
+233
+00:02:15,510 --> 00:02:15,630
+pressurized hi hat
+
+234
+00:02:16,080 --> 00:02:16,170
+pressurized hi hat
+
+235
+00:02:16,665 --> 00:02:16,770
+pressurized hi hat
+
+236
+00:02:17,205 --> 00:02:17,295
+pressurized hi hat
+
+237
+00:02:17,790 --> 00:02:17,880
+pressurized hi hat
+
+238
+00:02:18,345 --> 00:02:18,450
+pressurized hi hat
+
+239
+00:02:18,870 --> 00:02:18,975
+pressurized hi hat
+
+240
+00:02:19,425 --> 00:02:19,530
+pressurized hi hat
+
+241
+00:02:19,980 --> 00:02:20,100
+pressurized hi hat
+
+242
+00:02:20,535 --> 00:02:20,685
+pressurized hi hat
+
+243
+00:02:21,105 --> 00:02:21,285
+pressurized hi hat
+
+244
+00:02:21,660 --> 00:02:21,765
+pressurized hi hat
+
+245
+00:02:22,230 --> 00:02:22,335
+pressurized hi hat
+
+246
+00:02:22,785 --> 00:02:22,905
+pressurized hi hat
+
+247
+00:02:23,340 --> 00:02:23,460
+pressurized hi hat
+
+248
+00:02:23,880 --> 00:02:24,000
+pressurized hi hat
+
+249
+00:02:24,450 --> 00:02:24,555
+pressurized hi hat
+
+250
+00:02:24,960 --> 00:02:25,080
+pressurized hi hat
+
+251
+00:02:25,515 --> 00:02:25,635
+pressurized hi hat
+
+252
+00:02:26,100 --> 00:02:26,295
+pressurized hi hat
+
+253
+00:02:26,670 --> 00:02:26,835
+pressurized hi hat
+
+254
+00:02:27,240 --> 00:02:27,375
+pressurized hi hat
+
+255
+00:02:27,825 --> 00:02:27,930
+pressurized hi hat
+
+256
+00:02:28,380 --> 00:02:28,605
+pressurized hi hat
+
+257
+00:02:28,935 --> 00:02:29,085
+pressurized hi hat
+
+258
+00:02:29,505 --> 00:02:29,640
+pressurized hi hat
+
+259
+00:02:30,075 --> 00:02:30,270
+pressurized hi hat
+
+260
+00:02:30,675 --> 00:02:30,795
+pressurized hi hat
+
+261
+00:02:31,125 --> 00:02:31,170
+pressurized hi hat
+
+262
+00:02:31,245 --> 00:02:31,395
+pressurized hi hat
+
+263
+00:02:31,830 --> 00:02:31,935
+pressurized hi hat
+
+264
+00:02:32,385 --> 00:02:32,505
+pressurized hi hat
+
+265
+00:02:32,985 --> 00:02:33,090
+pressurized hi hat
+
+266
+00:02:33,540 --> 00:02:33,630
+pressurized hi hat
+
+267
+00:02:34,140 --> 00:02:34,230
+pressurized hi hat
+
+268
+00:02:34,680 --> 00:02:34,815
+pressurized hi hat
+
+269
+00:02:35,460 --> 00:02:35,520
+pressurized hi hat
+
+270
+00:02:35,745 --> 00:02:35,850
+pressurized hi hat
+
+271
+00:02:36,285 --> 00:02:36,390
+pressurized hi hat
+
+272
+00:02:36,855 --> 00:02:36,975
+pressurized hi hat
+
+273
+00:02:37,425 --> 00:02:37,530
+pressurized hi hat
+
+274
+00:02:37,995 --> 00:02:38,100
+pressurized hi hat
+
+275
+00:02:38,580 --> 00:02:38,685
+pressurized hi hat
+
+276
+00:02:39,165 --> 00:02:39,270
+pressurized hi hat
+
+277
+00:02:39,765 --> 00:02:39,870
+pressurized hi hat
+
+278
+00:02:40,365 --> 00:02:40,470
+pressurized hi hat
+
+279
+00:02:40,920 --> 00:02:41,040
+pressurized hi hat
+
+280
+00:02:41,505 --> 00:02:41,595
+pressurized hi hat
+
+281
+00:02:42,060 --> 00:02:42,165
+pressurized hi hat
+
+282
+00:02:42,675 --> 00:02:42,750
+pressurized hi hat
+
+283
+00:02:43,275 --> 00:02:43,365
+pressurized hi hat
+
+284
+00:02:43,845 --> 00:02:43,920
+pressurized hi hat
+
+285
+00:02:44,430 --> 00:02:44,505
+pressurized hi hat
+
+286
+00:02:44,970 --> 00:02:45,045
+pressurized hi hat
+
+287
+00:02:45,570 --> 00:02:45,675
+pressurized hi hat
+
+288
+00:02:46,170 --> 00:02:46,260
+pressurized hi hat
+
+289
+00:02:46,740 --> 00:02:46,845
+pressurized hi hat
+
+290
+00:02:47,355 --> 00:02:47,460
+pressurized hi hat
+
+291
+00:02:47,910 --> 00:02:48,015
+pressurized hi hat
+
+292
+00:02:48,510 --> 00:02:48,600
+pressurized hi hat
+
+293
+00:02:49,080 --> 00:02:49,185
+pressurized hi hat
+
+294
+00:02:49,680 --> 00:02:49,785
+pressurized hi hat
+
+295
+00:02:50,295 --> 00:02:50,400
+pressurized hi hat
+
+296
+00:02:50,865 --> 00:02:50,985
+pressurized hi hat
+
+297
+00:02:51,420 --> 00:02:51,555
+pressurized hi hat
+
+298
+00:02:52,050 --> 00:02:52,155
+pressurized hi hat
+
+299
+00:02:52,650 --> 00:02:52,755
+pressurized hi hat
+
+300
+00:02:53,250 --> 00:02:53,355
+pressurized hi hat
+
+301
+00:02:53,820 --> 00:02:53,940
+pressurized hi hat
+
+302
+00:02:54,450 --> 00:02:54,540
+pressurized hi hat
+
+303
+00:02:55,050 --> 00:02:55,155
+pressurized hi hat
+
+304
+00:02:55,650 --> 00:02:55,740
+pressurized hi hat
+
+305
+00:02:56,235 --> 00:02:56,325
+pressurized hi hat
+
+306
+00:02:56,835 --> 00:02:56,940
+pressurized hi hat
+
+307
+00:02:57,465 --> 00:02:57,570
+pressurized hi hat
+
+308
+00:02:58,065 --> 00:02:58,185
+pressurized hi hat
+
+309
+00:02:58,695 --> 00:02:58,815
+pressurized hi hat
+
+310
+00:02:59,235 --> 00:02:59,370
+pressurized hi hat
+
+311
+00:02:59,835 --> 00:02:59,970
+pressurized hi hat
+
+312
+00:03:00,450 --> 00:03:00,555
+pressurized hi hat
+
+313
+00:03:01,065 --> 00:03:01,155
+pressurized hi hat
+
+314
+00:03:01,665 --> 00:03:01,770
+pressurized hi hat
+
+315
+00:03:02,250 --> 00:03:02,355
+pressurized hi hat
+
+316
+00:03:02,850 --> 00:03:03,180
+pressurized hi hat
+
+317
+00:03:03,480 --> 00:03:03,600
+pressurized hi hat
+
+318
+00:03:04,050 --> 00:03:04,170
+pressurized hi hat
+
+319
+00:03:04,665 --> 00:03:04,785
+pressurized hi hat
+
+320
+00:03:05,220 --> 00:03:05,385
+pressurized hi hat
+
+321
+00:03:05,880 --> 00:03:05,985
+pressurized hi hat
+
+322
+00:03:06,495 --> 00:03:06,615
+pressurized hi hat
+
+323
+00:03:07,095 --> 00:03:07,320
+pressurized hi hat
+
+324
+00:03:07,695 --> 00:03:07,860
+pressurized hi hat
+
+325
+00:03:08,325 --> 00:03:08,430
+pressurized hi hat
+
+326
+00:03:08,970 --> 00:03:09,060
+pressurized hi hat
+
+327
+00:03:09,570 --> 00:03:09,675
+pressurized hi hat
+
+328
+00:03:10,245 --> 00:03:10,335
+pressurized hi hat
+
+329
+00:03:11,790 --> 00:03:11,910
+pressurized hi hat
+
+330
+00:03:12,330 --> 00:03:12,450
+pressurized hi hat
+
+331
+00:03:12,915 --> 00:03:13,020
+pressurized hi hat
+
+332
+00:03:13,440 --> 00:03:13,545
+pressurized hi hat
+
+333
+00:03:14,010 --> 00:03:14,115
+pressurized hi hat
+
+334
+00:03:14,565 --> 00:03:14,730
+pressurized hi hat
+
+335
+00:03:15,090 --> 00:03:15,225
+pressurized hi hat
+
+336
+00:03:15,660 --> 00:03:15,795
+pressurized hi hat
+
+337
+00:03:15,900 --> 00:03:15,960
+pressurized hi hat
+
+338
+00:03:16,155 --> 00:03:16,365
+pressurized hi hat
+
+339
+00:03:16,785 --> 00:03:16,905
+pressurized hi hat
+
+340
+00:03:17,340 --> 00:03:17,460
+pressurized hi hat
+
+341
+00:03:17,925 --> 00:03:18,030
+pressurized hi hat
+
+342
+00:03:18,495 --> 00:03:18,585
+pressurized hi hat
+
+343
+00:03:19,035 --> 00:03:19,140
+pressurized hi hat
+
+344
+00:03:19,590 --> 00:03:19,680
+pressurized hi hat
+
+345
+00:03:20,175 --> 00:03:20,280
+pressurized hi hat
+
+346
+00:03:20,730 --> 00:03:20,805
+pressurized hi hat
+
+347
+00:03:21,300 --> 00:03:21,405
+pressurized hi hat
+
+348
+00:03:21,855 --> 00:03:21,975
+pressurized hi hat
+
+349
+00:03:22,380 --> 00:03:22,500
+pressurized hi hat
+
+350
+00:03:22,935 --> 00:03:23,040
+pressurized hi hat
+
+351
+00:03:23,490 --> 00:03:23,610
+pressurized hi hat
+
+352
+00:03:24,060 --> 00:03:24,180
+pressurized hi hat
+
+353
+00:03:24,585 --> 00:03:24,795
+pressurized hi hat
+
+354
+00:03:25,170 --> 00:03:25,290
+pressurized hi hat
+
+355
+00:03:25,740 --> 00:03:25,860
+pressurized hi hat
+
+356
+00:03:26,310 --> 00:03:26,430
+pressurized hi hat
+
+357
+00:03:26,865 --> 00:03:26,970
+pressurized hi hat
+
+358
+00:03:27,255 --> 00:03:27,285
+pressurized hi hat
+
+359
+00:03:27,420 --> 00:03:27,525
+pressurized hi hat
+
+360
+00:03:27,960 --> 00:03:28,065
+pressurized hi hat
+
+361
+00:03:28,485 --> 00:03:28,590
+pressurized hi hat
+
+362
+00:03:29,040 --> 00:03:29,145
+pressurized hi hat
+
+363
+00:03:29,610 --> 00:03:29,805
+pressurized hi hat
+
+364
+00:03:30,180 --> 00:03:30,360
+pressurized hi hat
+
+365
+00:03:30,750 --> 00:03:30,885
+pressurized hi hat
+
+366
+00:03:31,335 --> 00:03:31,455
+pressurized hi hat
+
+367
+00:03:31,890 --> 00:03:32,115
+pressurized hi hat
+
+368
+00:03:32,460 --> 00:03:32,595
+pressurized hi hat
+
+369
+00:03:33,030 --> 00:03:33,150
+pressurized hi hat
+
+370
+00:03:33,585 --> 00:03:33,795
+pressurized hi hat
+
+371
+00:03:34,185 --> 00:03:34,305
+pressurized hi hat
+
+372
+00:03:34,635 --> 00:03:34,695
+pressurized hi hat
+
+373
+00:03:34,770 --> 00:03:34,920
+pressurized hi hat
+
+374
+00:03:35,340 --> 00:03:35,460
+pressurized hi hat
+
+375
+00:03:35,895 --> 00:03:36,015
+pressurized hi hat
+
+376
+00:03:36,510 --> 00:03:36,600
+pressurized hi hat
+
+377
+00:03:37,050 --> 00:03:37,140
+pressurized hi hat
+
+378
+00:03:37,650 --> 00:03:37,755
+pressurized hi hat
+
+379
+00:03:38,205 --> 00:03:38,325
+pressurized hi hat
+
+380
+00:03:38,970 --> 00:03:39,045
+pressurized hi hat
+
+381
+00:03:39,255 --> 00:03:39,375
+pressurized hi hat
+
+382
+00:03:39,795 --> 00:03:39,915
+pressurized hi hat
+
+383
+00:03:40,380 --> 00:03:40,500
+pressurized hi hat
+
+384
+00:03:40,950 --> 00:03:41,055
+pressurized hi hat
+
+385
+00:03:41,520 --> 00:03:41,610
+pressurized hi hat
+
+386
+00:03:42,090 --> 00:03:42,210
+pressurized hi hat
+
+387
+00:03:42,690 --> 00:03:42,780
+pressurized hi hat
+
+388
+00:03:43,290 --> 00:03:43,380
+pressurized hi hat
+
+389
+00:03:43,875 --> 00:03:43,980
+pressurized hi hat
+
+390
+00:03:44,445 --> 00:03:44,550
+pressurized hi hat
+
+391
+00:03:45,015 --> 00:03:45,120
+pressurized hi hat
+
+392
+00:03:45,570 --> 00:03:45,675
+pressurized hi hat
+
+393
+00:03:46,185 --> 00:03:46,275
+pressurized hi hat
+
+394
+00:03:46,785 --> 00:03:46,875
+pressurized hi hat
+
+395
+00:03:47,355 --> 00:03:47,430
+pressurized hi hat
+
+396
+00:03:47,940 --> 00:03:48,030
+pressurized hi hat
+
+397
+00:03:48,480 --> 00:03:48,555
+pressurized hi hat
+
+398
+00:03:49,095 --> 00:03:49,185
+pressurized hi hat
+
+399
+00:03:49,680 --> 00:03:49,770
+pressurized hi hat
+
+400
+00:03:50,250 --> 00:03:50,370
+pressurized hi hat
+
+401
+00:03:50,865 --> 00:03:50,970
+pressurized hi hat
+
+402
+00:03:51,435 --> 00:03:51,525
+pressurized hi hat
+
+403
+00:03:52,020 --> 00:03:52,110
+pressurized hi hat
+
+404
+00:03:52,605 --> 00:03:52,695
+pressurized hi hat
+
+405
+00:03:53,190 --> 00:03:53,295
+pressurized hi hat
+
+406
+00:03:53,805 --> 00:03:53,910
+pressurized hi hat
+
+407
+00:03:54,375 --> 00:03:54,495
+pressurized hi hat
+
+408
+00:03:54,945 --> 00:03:55,065
+pressurized hi hat
+
+409
+00:03:55,575 --> 00:03:55,680
+pressurized hi hat
+
+410
+00:03:56,160 --> 00:03:56,280
+pressurized hi hat
+
+411
+00:03:56,775 --> 00:03:56,880
+pressurized hi hat
+
+412
+00:03:57,345 --> 00:03:57,450
+pressurized hi hat
+
+413
+00:03:57,960 --> 00:03:58,065
+pressurized hi hat
+
+414
+00:03:58,560 --> 00:03:58,680
+pressurized hi hat
+
+415
+00:03:59,160 --> 00:03:59,250
+pressurized hi hat
+
+416
+00:03:59,745 --> 00:03:59,850
+pressurized hi hat
+
+417
+00:04:00,345 --> 00:04:00,450
+pressurized hi hat
+
+418
+00:04:00,975 --> 00:04:01,095
+pressurized hi hat
+
+419
+00:04:01,590 --> 00:04:01,710
+pressurized hi hat
+
+420
+00:04:02,205 --> 00:04:02,325
+pressurized hi hat
+
+421
+00:04:02,760 --> 00:04:02,880
+pressurized hi hat
+
+422
+00:04:03,360 --> 00:04:03,495
+pressurized hi hat
+
+423
+00:04:03,960 --> 00:04:04,065
+pressurized hi hat
+
+424
+00:04:04,575 --> 00:04:04,680
+pressurized hi hat
+
+425
+00:04:05,190 --> 00:04:05,280
+pressurized hi hat
+
+426
+00:04:05,775 --> 00:04:05,865
+pressurized hi hat
+
+427
+00:04:06,375 --> 00:04:06,690
+pressurized hi hat
+
+428
+00:04:06,990 --> 00:04:07,125
+pressurized hi hat
+
+429
+00:04:07,560 --> 00:04:07,680
+pressurized hi hat
+
+430
+00:04:08,190 --> 00:04:08,295
+pressurized hi hat
+
+431
+00:04:08,520 --> 00:04:08,565
+pressurized hi hat
+
+432
+00:04:08,745 --> 00:04:08,895
+pressurized hi hat
+
+433
+00:04:09,390 --> 00:04:09,495
+pressurized hi hat
+
+434
+00:04:10,005 --> 00:04:10,125
+pressurized hi hat
+
+435
+00:04:10,605 --> 00:04:10,845
+pressurized hi hat
+
+436
+00:04:11,205 --> 00:04:11,370
+pressurized hi hat
+
+437
+00:04:11,835 --> 00:04:11,940
+pressurized hi hat
+
+438
+00:04:12,480 --> 00:04:12,585
+pressurized hi hat
+
+439
+00:04:13,080 --> 00:04:13,185
+pressurized hi hat
+
+440
+00:04:13,755 --> 00:04:13,845
+pressurized hi hat
+
+441
+00:04:15,315 --> 00:04:15,420
+pressurized hi hat
+
+442
+00:04:15,855 --> 00:04:15,975
+pressurized hi hat
+
+443
+00:04:16,425 --> 00:04:16,545
+pressurized hi hat
+
+444
+00:04:16,965 --> 00:04:17,070
+pressurized hi hat
+
+445
+00:04:17,520 --> 00:04:17,640
+pressurized hi hat
+
+446
+00:04:18,075 --> 00:04:18,240
+pressurized hi hat
+
+447
+00:04:18,615 --> 00:04:18,735
+pressurized hi hat
+
+448
+00:04:19,185 --> 00:04:19,320
+pressurized hi hat
+
+449
+00:04:19,410 --> 00:04:19,485
+pressurized hi hat
+
+450
+00:04:19,665 --> 00:04:19,710
+pressurized hi hat
+
+451
+00:04:19,755 --> 00:04:19,875
+pressurized hi hat
+
+452
+00:04:20,310 --> 00:04:20,430
+pressurized hi hat
+
+453
+00:04:20,850 --> 00:04:20,970
+pressurized hi hat
+
+454
+00:04:21,435 --> 00:04:21,540
+pressurized hi hat
+
+455
+00:04:22,005 --> 00:04:22,110
+pressurized hi hat
+
+456
+00:04:22,545 --> 00:04:22,665
+pressurized hi hat
+
+457
+00:04:23,115 --> 00:04:23,205
+pressurized hi hat
+
+458
+00:04:23,700 --> 00:04:23,805
+pressurized hi hat
+
+459
+00:04:24,240 --> 00:04:24,330
+pressurized hi hat
+
+460
+00:04:24,825 --> 00:04:24,915
+pressurized hi hat
+
+461
+00:04:25,365 --> 00:04:25,485
+pressurized hi hat
+
+462
+00:04:25,905 --> 00:04:26,010
+pressurized hi hat
+
+463
+00:04:26,445 --> 00:04:26,550
+pressurized hi hat
+
+464
+00:04:27,015 --> 00:04:27,135
+pressurized hi hat
+
+465
+00:04:27,570 --> 00:04:27,690
+pressurized hi hat
+
+466
+00:04:28,110 --> 00:04:28,320
+pressurized hi hat
+
+467
+00:04:28,695 --> 00:04:28,800
+pressurized hi hat
+
+468
+00:04:29,250 --> 00:04:29,370
+pressurized hi hat
+
+469
+00:04:29,820 --> 00:04:29,940
+pressurized hi hat
+
+470
+00:04:30,375 --> 00:04:30,495
+pressurized hi hat
+
+471
+00:04:30,900 --> 00:04:31,035
+pressurized hi hat
+
+472
+00:04:31,470 --> 00:04:31,590
+pressurized hi hat
+
+473
+00:04:31,995 --> 00:04:32,115
+pressurized hi hat
+
+474
+00:04:32,550 --> 00:04:32,670
+pressurized hi hat
+
+475
+00:04:33,120 --> 00:04:33,315
+pressurized hi hat
+
+476
+00:04:33,705 --> 00:04:33,870
+pressurized hi hat
+
+477
+00:04:34,275 --> 00:04:34,410
+pressurized hi hat
+
+478
+00:04:34,845 --> 00:04:34,965
+pressurized hi hat
+
+479
+00:04:35,415 --> 00:04:35,640
+pressurized hi hat
+
+480
+00:04:35,970 --> 00:04:36,105
+pressurized hi hat
+
+481
+00:04:36,540 --> 00:04:36,675
+pressurized hi hat
+
+482
+00:04:37,095 --> 00:04:37,305
+pressurized hi hat
+
+483
+00:04:37,695 --> 00:04:37,830
+pressurized hi hat
+
+484
+00:04:38,160 --> 00:04:38,205
+pressurized hi hat
+
+485
+00:04:38,280 --> 00:04:38,415
+pressurized hi hat
+
+486
+00:04:38,865 --> 00:04:38,970
+pressurized hi hat
+
+487
+00:04:39,420 --> 00:04:39,525
+pressurized hi hat
+
+488
+00:04:40,020 --> 00:04:40,125
+pressurized hi hat
+
+489
+00:04:40,575 --> 00:04:40,665
+pressurized hi hat
+
+490
+00:04:41,175 --> 00:04:41,265
+pressurized hi hat
+
+491
+00:04:41,715 --> 00:04:41,850
+pressurized hi hat
+
+492
+00:04:42,495 --> 00:04:42,555
+pressurized hi hat
+
+493
+00:04:42,765 --> 00:04:42,885
+pressurized hi hat
+
+494
+00:04:43,320 --> 00:04:43,425
+pressurized hi hat
+
+495
+00:04:43,890 --> 00:04:44,010
+pressurized hi hat
+
+496
+00:04:44,460 --> 00:04:44,565
+pressurized hi hat
+
+497
+00:04:45,030 --> 00:04:45,135
+pressurized hi hat
+
+498
+00:04:45,615 --> 00:04:45,720
+pressurized hi hat
+
+499
+00:04:46,200 --> 00:04:46,305
+pressurized hi hat
+
+500
+00:04:46,800 --> 00:04:46,905
+pressurized hi hat
+
+501
+00:04:47,400 --> 00:04:47,505
+pressurized hi hat
+
+502
+00:04:47,955 --> 00:04:48,075
+pressurized hi hat
+
+503
+00:04:48,540 --> 00:04:48,630
+pressurized hi hat
+
+504
+00:04:49,095 --> 00:04:49,185
+pressurized hi hat
+
+505
+00:04:49,710 --> 00:04:49,785
+pressurized hi hat
+
+506
+00:04:50,295 --> 00:04:50,400
+pressurized hi hat
+
+507
+00:04:50,865 --> 00:04:50,955
+pressurized hi hat
+
+508
+00:04:51,465 --> 00:04:51,540
+pressurized hi hat
+
+509
+00:04:51,990 --> 00:04:52,080
+pressurized hi hat
+
+510
+00:04:52,605 --> 00:04:52,710
+pressurized hi hat
+
+511
+00:04:53,190 --> 00:04:53,295
+pressurized hi hat
+
+512
+00:04:53,775 --> 00:04:53,880
+pressurized hi hat
+
+513
+00:04:54,390 --> 00:04:54,495
+pressurized hi hat
+
+514
+00:04:54,945 --> 00:04:55,035
+pressurized hi hat
+
+515
+00:04:55,530 --> 00:04:55,635
+pressurized hi hat
+
+516
+00:04:56,115 --> 00:04:56,220
+pressurized hi hat
+
+517
+00:04:56,715 --> 00:04:56,820
+pressurized hi hat
+
+518
+00:04:57,330 --> 00:04:57,435
+pressurized hi hat
+
+519
+00:04:57,900 --> 00:04:58,005
+pressurized hi hat
+
+520
+00:04:58,455 --> 00:04:58,590
+pressurized hi hat
+
+521
+00:04:59,085 --> 00:04:59,190
+pressurized hi hat
+
+522
+00:04:59,685 --> 00:04:59,790
+pressurized hi hat
+
+523
+00:05:00,285 --> 00:05:00,390
+pressurized hi hat
+
+524
+00:05:00,855 --> 00:05:00,975
+pressurized hi hat
+
+525
+00:05:01,485 --> 00:05:01,575
+pressurized hi hat
+
+526
+00:05:02,085 --> 00:05:02,190
+pressurized hi hat
+
+527
+00:05:02,685 --> 00:05:02,775
+pressurized hi hat
+
+528
+00:05:03,270 --> 00:05:03,360
+pressurized hi hat
+
+529
+00:05:03,870 --> 00:05:03,975
+pressurized hi hat
+
+530
+00:05:04,500 --> 00:05:04,605
+pressurized hi hat
+
+531
+00:05:05,100 --> 00:05:05,220
+pressurized hi hat
+
+532
+00:05:05,730 --> 00:05:05,850
+pressurized hi hat
+
+533
+00:05:06,270 --> 00:05:06,405
+pressurized hi hat
+
+534
+00:05:06,870 --> 00:05:07,005
+pressurized hi hat
+
+535
+00:05:07,485 --> 00:05:07,590
+pressurized hi hat
+
+536
+00:05:08,100 --> 00:05:08,190
+pressurized hi hat
+
+537
+00:05:08,700 --> 00:05:08,805
+pressurized hi hat
+
+538
+00:05:09,285 --> 00:05:09,375
+pressurized hi hat
+
+539
+00:05:09,885 --> 00:05:10,215
+pressurized hi hat
+
+540
+00:05:10,515 --> 00:05:10,635
+pressurized hi hat
+
+541
+00:05:11,085 --> 00:05:11,205
+pressurized hi hat
+
+542
+00:05:11,700 --> 00:05:11,805
+pressurized hi hat
+
+543
+00:05:12,255 --> 00:05:12,420
+pressurized hi hat
+
+544
+00:05:12,900 --> 00:05:13,020
+pressurized hi hat
+
+545
+00:05:13,530 --> 00:05:13,650
+pressurized hi hat
+
+546
+00:05:14,130 --> 00:05:14,355
+pressurized hi hat
+
+547
+00:05:14,745 --> 00:05:14,895
+pressurized hi hat
+
+548
+00:05:15,360 --> 00:05:15,465
+pressurized hi hat
+
+549
+00:05:16,005 --> 00:05:16,095
+pressurized hi hat
+
+550
+00:05:16,605 --> 00:05:16,710
+pressurized hi hat
+
+551
+00:05:17,280 --> 00:05:17,370
+pressurized hi hat
+
+552
+00:05:18,825 --> 00:05:18,945
+pressurized hi hat
+
+553
+00:05:19,365 --> 00:05:19,485
+pressurized hi hat
+
+554
+00:05:19,935 --> 00:05:20,055
+pressurized hi hat
+
+555
+00:05:20,475 --> 00:05:20,580
+pressurized hi hat
+
+556
+00:05:21,045 --> 00:05:21,150
+pressurized hi hat
+
+557
+00:05:21,600 --> 00:05:21,750
+pressurized hi hat
+
+558
+00:05:22,125 --> 00:05:22,260
+pressurized hi hat
+
+559
+00:05:22,695 --> 00:05:22,830
+pressurized hi hat
+
+560
+00:05:22,935 --> 00:05:22,995
+pressurized hi hat
+
+561
+00:05:23,190 --> 00:05:23,235
+pressurized hi hat
+
+562
+00:05:23,265 --> 00:05:23,400
+pressurized hi hat
+
+563
+00:05:23,820 --> 00:05:23,940
+pressurized hi hat
+
+564
+00:05:24,375 --> 00:05:24,480
+pressurized hi hat
+
+565
+00:05:24,960 --> 00:05:25,065
+pressurized hi hat
+
+566
+00:05:25,530 --> 00:05:25,620
+pressurized hi hat
+
+567
+00:05:26,070 --> 00:05:26,175
+pressurized hi hat
+
+568
+00:05:26,625 --> 00:05:26,715
+pressurized hi hat
+
+569
+00:05:27,210 --> 00:05:27,315
+pressurized hi hat
+
+570
+00:05:27,765 --> 00:05:27,840
+pressurized hi hat
+
+571
+00:05:28,335 --> 00:05:28,425
+pressurized hi hat
+
+572
+00:05:28,890 --> 00:05:29,010
+pressurized hi hat
+
+573
+00:05:29,415 --> 00:05:29,535
+pressurized hi hat
+
+574
+00:05:29,970 --> 00:05:30,075
+pressurized hi hat
+
+575
+00:05:30,525 --> 00:05:30,645
+pressurized hi hat
+
+576
+00:05:31,095 --> 00:05:31,215
+pressurized hi hat
+
+577
+00:05:31,620 --> 00:05:31,830
+pressurized hi hat
+
+578
+00:05:32,205 --> 00:05:32,325
+pressurized hi hat
+
+579
+00:05:32,775 --> 00:05:32,880
+pressurized hi hat
+
+580
+00:05:33,330 --> 00:05:33,465
+pressurized hi hat
+
+581
+00:05:33,900 --> 00:05:34,005
+pressurized hi hat
+
+582
+00:05:34,290 --> 00:05:34,320
+pressurized hi hat
+
+583
+00:05:34,455 --> 00:05:34,560
+pressurized hi hat
+
+584
+00:05:34,995 --> 00:05:35,100
+pressurized hi hat
+
+585
+00:05:35,520 --> 00:05:35,625
+pressurized hi hat
+
+586
+00:05:36,075 --> 00:05:36,180
+pressurized hi hat
+
+587
+00:05:36,645 --> 00:05:36,840
+pressurized hi hat
+
+588
+00:05:37,215 --> 00:05:37,395
+pressurized hi hat
+
+589
+00:05:37,785 --> 00:05:37,920
+pressurized hi hat
+
+590
+00:05:38,370 --> 00:05:38,490
+pressurized hi hat
+
+591
+00:05:38,925 --> 00:05:39,135
+pressurized hi hat
+
+592
+00:05:39,495 --> 00:05:39,630
+pressurized hi hat
+
+593
+00:05:40,065 --> 00:05:40,185
+pressurized hi hat
+
+594
+00:05:40,620 --> 00:05:40,830
+pressurized hi hat
+
+595
+00:05:41,220 --> 00:05:41,340
+pressurized hi hat
+
+596
+00:05:41,670 --> 00:05:41,715
+pressurized hi hat
+
+597
+00:05:41,790 --> 00:05:41,910
+pressurized hi hat
+
+598
+00:05:42,375 --> 00:05:42,480
+pressurized hi hat
+
+599
+00:05:42,930 --> 00:05:43,050
+pressurized hi hat
+
+600
+00:05:43,530 --> 00:05:43,635
+pressurized hi hat
+
+601
+00:05:44,085 --> 00:05:44,175
+pressurized hi hat
+
+602
+00:05:44,685 --> 00:05:44,790
+pressurized hi hat
+
+603
+00:05:45,240 --> 00:05:45,360
+pressurized hi hat
+
+604
+00:05:46,005 --> 00:05:46,080
+pressurized hi hat
+
+605
+00:05:46,290 --> 00:05:46,395
+pressurized hi hat
+
+606
+00:05:46,830 --> 00:05:46,950
+pressurized hi hat
+
+607
+00:05:47,400 --> 00:05:47,535
+pressurized hi hat
+
+608
+00:05:47,985 --> 00:05:48,090
+pressurized hi hat
+
+609
+00:05:48,540 --> 00:05:48,645
+pressurized hi hat
+
+610
+00:05:49,125 --> 00:05:49,245
+pressurized hi hat
+
+611
+00:05:49,725 --> 00:05:49,815
+pressurized hi hat
+
+612
+00:05:50,325 --> 00:05:50,415
+pressurized hi hat
+
+613
+00:05:50,910 --> 00:05:51,015
+pressurized hi hat
+
+614
+00:05:51,480 --> 00:05:51,585
+pressurized hi hat
+
+615
+00:05:52,050 --> 00:05:52,155
+pressurized hi hat
+
+616
+00:05:52,605 --> 00:05:52,710
+pressurized hi hat
+
+617
+00:05:53,220 --> 00:05:53,310
+pressurized hi hat
+
+618
+00:05:53,820 --> 00:05:53,910
+pressurized hi hat
+
+619
+00:05:54,390 --> 00:05:54,465
+pressurized hi hat
+
+620
+00:05:54,975 --> 00:05:55,065
+pressurized hi hat
+
+621
+00:05:55,515 --> 00:05:55,590
+pressurized hi hat
+
+622
+00:05:56,130 --> 00:05:56,220
+pressurized hi hat
+
+623
+00:05:56,715 --> 00:05:56,805
+pressurized hi hat
+
+624
+00:05:57,285 --> 00:05:57,390
+pressurized hi hat
+
+625
+00:05:57,900 --> 00:05:58,005
+pressurized hi hat
+
+626
+00:05:58,470 --> 00:05:58,560
+pressurized hi hat
+
+627
+00:05:59,055 --> 00:05:59,145
+pressurized hi hat
+
+628
+00:05:59,640 --> 00:05:59,730
+pressurized hi hat
+
+629
+00:06:00,225 --> 00:06:00,330
+pressurized hi hat
+
+630
+00:06:00,840 --> 00:06:00,945
+pressurized hi hat
+
+631
+00:06:01,410 --> 00:06:01,530
+pressurized hi hat
+
+632
+00:06:01,980 --> 00:06:02,100
+pressurized hi hat
+
+633
+00:06:02,610 --> 00:06:02,700
+pressurized hi hat
+
+634
+00:06:03,195 --> 00:06:03,315
+pressurized hi hat
+
+635
+00:06:03,810 --> 00:06:03,915
+pressurized hi hat
+
+636
+00:06:04,380 --> 00:06:04,485
+pressurized hi hat
+
+637
+00:06:04,995 --> 00:06:05,100
+pressurized hi hat
+
+638
+00:06:05,595 --> 00:06:05,700
+pressurized hi hat
+
+639
+00:06:06,195 --> 00:06:06,285
+pressurized hi hat
+
+640
+00:06:06,780 --> 00:06:06,885
+pressurized hi hat
+
+641
+00:06:07,380 --> 00:06:07,485
+pressurized hi hat
+
+642
+00:06:08,010 --> 00:06:08,115
+pressurized hi hat
+
+643
+00:06:08,625 --> 00:06:08,730
+pressurized hi hat
+
+644
+00:06:09,240 --> 00:06:09,360
+pressurized hi hat
+
+645
+00:06:09,795 --> 00:06:09,915
+pressurized hi hat
+
+646
+00:06:10,395 --> 00:06:10,530
+pressurized hi hat
+
+647
+00:06:10,995 --> 00:06:11,100
+pressurized hi hat
+
+648
+00:06:11,610 --> 00:06:11,715
+pressurized hi hat
+
+649
+00:06:12,225 --> 00:06:12,315
+pressurized hi hat
+
+650
+00:06:12,810 --> 00:06:12,900
+pressurized hi hat
+
+651
+00:06:13,410 --> 00:06:13,725
+pressurized hi hat
+
+652
+00:06:14,025 --> 00:06:14,160
+pressurized hi hat
+
+653
+00:06:14,595 --> 00:06:14,715
+pressurized hi hat
+
+654
+00:06:15,225 --> 00:06:15,330
+pressurized hi hat
+
+655
+00:06:15,780 --> 00:06:15,930
+pressurized hi hat
+
+656
+00:06:16,425 --> 00:06:16,530
+pressurized hi hat
+
+657
+00:06:17,040 --> 00:06:17,160
+pressurized hi hat
+
+658
+00:06:17,640 --> 00:06:17,880
+pressurized hi hat
+
+659
+00:06:18,255 --> 00:06:18,405
+pressurized hi hat
+
+660
+00:06:18,870 --> 00:06:18,975
+pressurized hi hat
+
+661
+00:06:19,515 --> 00:06:19,605
+pressurized hi hat
+
+662
+00:06:20,115 --> 00:06:20,220
+pressurized hi hat
+
+663
+00:06:20,790 --> 00:06:20,880
+pressurized hi hat
+
+664
+00:06:22,350 --> 00:06:22,455
+pressurized hi hat
+
+665
+00:06:22,890 --> 00:06:23,010
+pressurized hi hat
+
+666
+00:06:23,460 --> 00:06:23,580
+pressurized hi hat
+
+667
+00:06:24,000 --> 00:06:24,105
+pressurized hi hat
+
+668
+00:06:24,555 --> 00:06:24,675
+pressurized hi hat
+
+669
+00:06:25,110 --> 00:06:25,275
+pressurized hi hat
+
+670
+00:06:25,650 --> 00:06:25,770
+pressurized hi hat
+
+671
+00:06:26,220 --> 00:06:26,340
+pressurized hi hat
+
+672
+00:06:26,445 --> 00:06:26,520
+pressurized hi hat
+
+673
+00:06:26,700 --> 00:06:26,745
+pressurized hi hat
+
+674
+00:06:26,790 --> 00:06:26,910
+pressurized hi hat
+
+675
+00:06:27,330 --> 00:06:27,450
+pressurized hi hat
+
+676
+00:06:27,885 --> 00:06:28,005
+pressurized hi hat
+
+677
+00:06:28,470 --> 00:06:28,575
+pressurized hi hat
+
+678
+00:06:29,040 --> 00:06:29,145
+pressurized hi hat
+
+679
+00:06:29,580 --> 00:06:29,700
+pressurized hi hat
+
+680
+00:06:30,135 --> 00:06:30,240
+pressurized hi hat
+
+681
+00:06:30,735 --> 00:06:30,840
+pressurized hi hat
+
+682
+00:06:31,275 --> 00:06:31,350
+pressurized hi hat
+
+683
+00:06:31,860 --> 00:06:31,950
+pressurized hi hat
+
+684
+00:06:32,400 --> 00:06:32,535
+pressurized hi hat
+
+685
+00:06:32,940 --> 00:06:33,045
+pressurized hi hat
+
+686
+00:06:33,480 --> 00:06:33,585
+pressurized hi hat
+
+687
+00:06:34,050 --> 00:06:34,155
+pressurized hi hat
+
+688
+00:06:34,605 --> 00:06:34,725
+pressurized hi hat
+
+689
+00:06:35,130 --> 00:06:35,355
+pressurized hi hat
+
+690
+00:06:35,730 --> 00:06:35,835
+pressurized hi hat
+
+691
+00:06:36,285 --> 00:06:36,405
+pressurized hi hat
+
+692
+00:06:36,855 --> 00:06:36,975
+pressurized hi hat
+
+693
+00:06:37,410 --> 00:06:37,530
+pressurized hi hat
+
+694
+00:06:37,935 --> 00:06:38,070
+pressurized hi hat
+
+695
+00:06:38,505 --> 00:06:38,625
+pressurized hi hat
+
+696
+00:06:39,030 --> 00:06:39,150
+pressurized hi hat
+
+697
+00:06:39,585 --> 00:06:39,705
+pressurized hi hat
+
+698
+00:06:40,155 --> 00:06:40,350
+pressurized hi hat
+
+699
+00:06:40,740 --> 00:06:40,860
+pressurized hi hat
+
+700
+00:06:41,310 --> 00:06:41,445
+pressurized hi hat
+
+701
+00:06:41,880 --> 00:06:42,000
+pressurized hi hat
+
+702
+00:06:42,450 --> 00:06:42,660
+pressurized hi hat
+
+703
+00:06:43,005 --> 00:06:43,140
+pressurized hi hat
+
+704
+00:06:43,575 --> 00:06:43,710
+pressurized hi hat
+
+705
+00:06:44,130 --> 00:06:44,340
+pressurized hi hat
+
+706
+00:06:44,730 --> 00:06:44,865
+pressurized hi hat
+
+707
+00:06:45,195 --> 00:06:45,240
+pressurized hi hat
+
+708
+00:06:45,315 --> 00:06:45,420
+pressurized hi hat
+
+709
+00:06:45,885 --> 00:06:46,005
+pressurized hi hat
+
+710
+00:06:46,455 --> 00:06:46,560
+pressurized hi hat
+
+711
+00:06:47,055 --> 00:06:47,160
+pressurized hi hat
+
+712
+00:06:47,610 --> 00:06:47,685
+pressurized hi hat
+
+713
+00:06:48,195 --> 00:06:48,300
+pressurized hi hat
+
+714
+00:06:48,750 --> 00:06:48,885
+pressurized hi hat
+
+715
+00:06:49,530 --> 00:06:49,590
+pressurized hi hat
+
+716
+00:06:49,800 --> 00:06:49,920
+pressurized hi hat
+
+717
+00:06:50,355 --> 00:06:50,460
+pressurized hi hat
+
+718
+00:06:50,925 --> 00:06:51,045
+pressurized hi hat
+
+719
+00:06:51,495 --> 00:06:51,600
+pressurized hi hat
+
+720
+00:06:52,065 --> 00:06:52,170
+pressurized hi hat
+
+721
+00:06:52,650 --> 00:06:52,755
+pressurized hi hat
+
+722
+00:06:53,235 --> 00:06:53,340
+pressurized hi hat
+
+723
+00:06:53,835 --> 00:06:53,940
+pressurized hi hat
+
+724
+00:06:54,435 --> 00:06:54,540
+pressurized hi hat
+
+725
+00:06:54,990 --> 00:06:55,095
+pressurized hi hat
+
+726
+00:06:55,575 --> 00:06:55,665
+pressurized hi hat
+
+727
+00:06:56,130 --> 00:06:56,220
+pressurized hi hat
+
+728
+00:06:56,730 --> 00:06:56,820
+pressurized hi hat
+
+729
+00:06:57,330 --> 00:06:57,420
+pressurized hi hat
+
+730
+00:06:57,900 --> 00:06:57,990
+pressurized hi hat
+
+731
+00:06:58,500 --> 00:06:58,575
+pressurized hi hat
+
+732
+00:06:59,025 --> 00:06:59,115
+pressurized hi hat
+
+733
+00:06:59,640 --> 00:06:59,745
+pressurized hi hat
+
+734
+00:07:00,225 --> 00:07:00,330
+pressurized hi hat
+
+735
+00:07:00,810 --> 00:07:00,915
+pressurized hi hat
+
+736
+00:07:01,425 --> 00:07:01,530
+pressurized hi hat
+
+737
+00:07:01,980 --> 00:07:02,070
+pressurized hi hat
+
+738
+00:07:02,565 --> 00:07:02,670
+pressurized hi hat
+
+739
+00:07:03,150 --> 00:07:03,255
+pressurized hi hat
+
+740
+00:07:03,750 --> 00:07:03,855
+pressurized hi hat
+
+741
+00:07:04,365 --> 00:07:04,470
+pressurized hi hat
+
+742
+00:07:04,935 --> 00:07:05,040
+pressurized hi hat
+
+743
+00:07:05,490 --> 00:07:05,610
+pressurized hi hat
+
+744
+00:07:06,120 --> 00:07:06,225
+pressurized hi hat
+
+745
+00:07:06,720 --> 00:07:06,825
+pressurized hi hat
+
+746
+00:07:07,320 --> 00:07:07,425
+pressurized hi hat
+
+747
+00:07:07,890 --> 00:07:08,010
+pressurized hi hat
+
+748
+00:07:08,520 --> 00:07:08,610
+pressurized hi hat
+
+749
+00:07:09,120 --> 00:07:09,225
+pressurized hi hat
+
+750
+00:07:09,720 --> 00:07:09,810
+pressurized hi hat
+
+751
+00:07:10,290 --> 00:07:10,395
+pressurized hi hat
+
+752
+00:07:10,905 --> 00:07:11,010
+pressurized hi hat
+
+753
+00:07:11,535 --> 00:07:11,640
+pressurized hi hat
+
+754
+00:07:12,135 --> 00:07:12,255
+pressurized hi hat
+
+755
+00:07:12,765 --> 00:07:12,885
+pressurized hi hat
+
+756
+00:07:13,305 --> 00:07:13,425
+pressurized hi hat
+
+757
+00:07:13,905 --> 00:07:14,040
+pressurized hi hat
+
+758
+00:07:14,520 --> 00:07:14,625
+pressurized hi hat
+
+759
+00:07:15,135 --> 00:07:15,225
+pressurized hi hat
+
+760
+00:07:15,735 --> 00:07:15,840
+pressurized hi hat
+
+761
+00:07:16,320 --> 00:07:16,410
+pressurized hi hat
+
+762
+00:07:16,920 --> 00:07:17,250
+pressurized hi hat
+
+763
+00:07:17,550 --> 00:07:17,670
+pressurized hi hat
+
+764
+00:07:18,120 --> 00:07:18,240
+pressurized hi hat
+
+765
+00:07:18,735 --> 00:07:18,840
+pressurized hi hat
+
+766
+00:07:19,290 --> 00:07:19,455
+pressurized hi hat
+
+767
+00:07:19,935 --> 00:07:20,055
+pressurized hi hat
+
