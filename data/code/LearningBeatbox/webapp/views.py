@@ -14,8 +14,15 @@ def receive_data(request):
     global latest_sounds
     if request.method == 'GET':
         data = request.GET.get('data', '')
+
+        # Additional print statement for debugging
+        print(f"Received data: {data}")
+
         if data:
-            latest_sounds.append(data)
+            # Sanitize or process data if necessary
+            processed_data = data.strip('"')  # Remove any surrounding quotes
+
+            latest_sounds.append(processed_data)
             # Keep only the last 10 entries
             latest_sounds = latest_sounds[-10:]
 
@@ -25,11 +32,11 @@ def receive_data(request):
                 "sounds",  # The group name where all consumers are listening
                 {
                     "type": "sound_message",  # Custom method in the consumer
-                    "message": data,
+                    "message": processed_data,
                 }
             )
 
-        return JsonResponse({"status": "success", "received_data": data})
+        return JsonResponse({"status": "success", "received_data": processed_data})
 
 
 def display_sounds(request):

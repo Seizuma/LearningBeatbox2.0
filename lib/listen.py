@@ -28,16 +28,6 @@ from lib.key_poller import KeyPoller
 STATE_POLLING_THRESHOLD = 0.2
 
 
-def start_loop(loop):
-    asyncio.set_event_loop(loop)
-    loop.run_forever()
-
-
-new_loop = asyncio.new_event_loop()
-t = threading.Thread(target=start_loop, args=(new_loop,))
-t.start()
-
-
 def classify_audioframes(audioQueue, audio_frames, classifier, high_speed):
     if (not audioQueue.empty()):
         audio_frames.append(audioQueue.get())
@@ -144,19 +134,18 @@ def action_consumer(stream, classifier, dataDicts, persist_replay, replay_file, 
         listening_state['stream'].stop_stream()
         listening_state['currently_recording'] = False
 
-
-async def send_data_to_server(data):
-    if "0.000000" not in data:
-        encoded_data = urllib.parse.quote(data)  # URL-encode the data
-        url = f"http://127.0.0.1:8001/receive_data?data={encoded_data}"
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url) as response:
-                    if response.status != 200:
-                        print("Failed to send data to server, status code:",
-                              response.status)
-        except Exception as e:
-            print("Error sending data to server:", e)
+#    async def send_data_to_server(data):
+#         if "0.000000" not in data:
+#             encoded_data = urllib.parse.quote(data)  # URL-encode the data
+#             url = f"http://127.0.0.1:8001/receive_data?data={encoded_data}"
+#             try:
+#                 async with aiohttp.ClientSession() as session:
+#                     async with session.get(url) as response:
+#                         if response.status != 200:
+#                             print("Failed to send data to server, status code:",
+#                                   response.status)
+#             except Exception as e:
+#                 print("Error sending data to server:", e)
 
 
 def classification_consumer(audio, stream, classifier, persist_files, high_speed):
@@ -192,9 +181,9 @@ def classification_consumer(audio, stream, classifier, persist_files, high_speed
             short_comment = "T %0.3f - [%0.6f%s %s] F:%0d P:%0d" % (
                 seconds_playing, probabilityDict[winner]['probability'], '', winner, frequency, probabilityDict[winner]['power'])
             if (winner != "silence"):
-                # print(short_comment)
-                asyncio.run_coroutine_threadsafe(
-                    send_data_to_server(short_comment), new_loop)
+                print(short_comment)
+                # asyncio.run_coroutine_threadsafe(
+                #     send_data_to_server(short_comment), new_loop)
 
             listening_state['classifierQueue'].put(probabilityDict)
             if (persist_files):

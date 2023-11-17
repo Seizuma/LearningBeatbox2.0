@@ -179,19 +179,27 @@ class PatternDetector:
     # Detect an action using the strategy that was set in the configuration
     def detect(self, action):
         if action not in self.config and action not in self.patterns:
+            print(f"Action '{action}' not found in config or patterns")
             return False
-        elif (action in self.patterns):
-            if (self.patterns[action]['throttle_detect'](self)):
+        elif action in self.patterns:
+            throttle_result = self.patterns[action]['throttle_detect'](self)
+            print(
+                f"Throttle detection for action '{action}': {throttle_result}")
+            if throttle_result:
                 return False
 
             detected = self.patterns[action]['detect'](self)
-            if (detected == True):
+            print(f"Pattern detection for action '{action}': {detected}")
+            if detected:
                 self.tickActions.append(action)
                 self.patterns[action]['throttle_activate'](self)
 
             return detected
         else:
-            return self.detect_strategy(action, self.config[action])
+            strategy_result = self.detect_strategy(action, self.config[action])
+            print(
+                f"Strategy detection for action '{action}': {strategy_result}")
+            return strategy_result
 
     def detect_silence(self):
         return self.predictionDicts[-1]['silence']['intensity'] < SILENCE_INTENSITY_THRESHOLD

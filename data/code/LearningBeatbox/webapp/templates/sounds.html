@@ -3,6 +3,14 @@
 
 <head>
     <title>Detected Sounds</title>
+    <style>
+        #sounds-list {
+            max-height: 300px;
+            /* Hauteur maximale de la liste */
+            overflow-y: auto;
+            /* Défilement automatique */
+        }
+    </style>
 </head>
 
 <body>
@@ -16,7 +24,6 @@
     </ul>
 </body>
 <script>
-
     document.addEventListener('DOMContentLoaded', function () {
         var ws_scheme = window.location.protocol == "https:" ? "wss" : "ws";
         var soundSocket = new WebSocket(
@@ -26,18 +33,34 @@
         soundSocket.onmessage = function (e) {
             var data = JSON.parse(e.data);
             var sound = data['message'];
+            console.log("Received sound:", sound);
             var node = document.createElement("LI");
-            var textnode = document.createTextNode(sound);
+            var textnode = document.createTextNode(formatSound(sound));
             node.appendChild(textnode);
             document.getElementById("sounds-list").appendChild(node);
+            scrollToEnd();
         };
 
         soundSocket.onclose = function (e) {
             console.error('Sound socket closed unexpectedly');
         };
+
+        function formatSound(sound) {
+            // Format the sound object to a readable string
+            let formattedSound = `Sound: \n`;
+
+            for (let property in sound) {
+                formattedSound += `${property}: ${sound[property]}\n`;
+            }
+
+            return formattedSound;
+        }
+
+        function scrollToEnd() {
+            var soundsList = document.getElementById("sounds-list");
+            soundsList.scrollTop = soundsList.scrollHeight;
+        }
     });
-
-
 </script>
 
 </html>
