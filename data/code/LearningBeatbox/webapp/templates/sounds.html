@@ -46,15 +46,13 @@
         };
 
         function formatSound(sound) {
-            // Format the sound object to a readable string
-            let formattedSound = `Sound: \n`;
+            // Decoding the URL-encoded string
+            let decodedSound = decodeURIComponent(sound);
 
-            for (let property in sound) {
-                formattedSound += `${property}: ${sound[property]}\n`;
-            }
-
-            return formattedSound;
+            // Return the formatted sound
+            return `Sound: ${decodedSound}`;
         }
+
 
         function scrollToEnd() {
             var soundsList = document.getElementById("sounds-list");
