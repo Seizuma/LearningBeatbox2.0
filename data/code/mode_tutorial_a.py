@@ -45,7 +45,7 @@ class TutorialMode(BaseMode):
             'threshold': {
                 'power': 155000,
                 'frequency': 34,
-                'percentage': 77,
+                'percentage': 95,
                 'below_frequency': 40,
             },
             'throttle': {
@@ -57,7 +57,7 @@ class TutorialMode(BaseMode):
             'sounds': ['k'],
             'threshold': {
                 'power': 75000,
-                'percentage': 70,
+                'percentage': 95,
                 # 'frequency': 40,
             },
             'throttle': {
@@ -69,7 +69,7 @@ class TutorialMode(BaseMode):
             'sounds': ['hi hat'],
             'threshold': {
                 'power': 60000,
-                'percentage': 90,
+                'percentage': 95,
             },
             'throttle': {
                 'hi hat': 0.05
@@ -80,7 +80,7 @@ class TutorialMode(BaseMode):
             'sounds': ['m'],
             'threshold': {
                 'power': 80000,
-                'percentage': 80,
+                'percentage': 95,
             },
             'throttle': {
                 'm': 0.1
@@ -91,7 +91,7 @@ class TutorialMode(BaseMode):
             'sounds': ['throat bass'],
             'threshold': {
                 'power': 100000,
-                'percentage': 90,
+                'percentage': 95,
             },
             'continual_threshold': {
                 'power': 20000,
@@ -106,7 +106,7 @@ class TutorialMode(BaseMode):
             'sounds': ['lips oscilation (from pash kick)'],
             'threshold': {
                 'power': 180000,
-                'percentage': 90,
+                'percentage': 95,
             },
             'continual_threshold': {
                 'power': 20000,
@@ -136,7 +136,7 @@ class TutorialMode(BaseMode):
             'sounds': ['Vocalized lips oscilation'],
             'threshold': {
                 'power': 180000,
-                'percentage': 90,
+                'percentage': 95,
             },
             'continual_threshold': {
                 'power': 20000,
@@ -151,10 +151,43 @@ class TutorialMode(BaseMode):
             'sounds': ['pressurized hi hat'],
             'threshold': {
                 'power': 40000,
-                'percentage': 80,
+                'percentage': 95,
             },
             'throttle': {
                 'pressurized hi hat': 0.1
+            }
+        },
+        {
+            'name': 'hollow lip roll',
+            'sounds': ['hollow lip roll'],
+            'threshold': {
+                'power': 60000,
+                'percentage': 95,
+            },
+            'throttle': {
+                'hollow lip roll': 0.1
+            }
+        },
+        {
+            'name': 'lip roll (classic)',
+            'sounds': ['lip roll (classic)'],
+            'threshold': {
+                'power': 60000,
+                'percentage': 95,
+            },
+            'throttle': {
+                'lip roll (classic)': 0.1
+            }
+        },
+        {
+            'name': 'Tutu (kim squeak)',
+            'sounds': ['Tutu (kim squeak)'],
+            'threshold': {
+                'power': 60000,
+                'percentage': 95,
+            },
+            'throttle': {
+                'Tutu (kim squeak)': 0.1
             }
         }
     ]
@@ -226,8 +259,8 @@ class TutorialMode(BaseMode):
                 tasks.append(task)
                 print(f"Task for pattern '{pattern['name']}' created")
 
-        for task in tasks:
-            task.result()  # Wait for each task to complete
+        # for task in tasks:
+        #     task.result()  # Wait for each task to complete
 
     async def send_data_and_adjust(self, pattern, new_loop):
         await send_data_to_server(pattern['sounds'][0])
