@@ -142,7 +142,7 @@ class BaseMode:
             return self.toggles[key]
 
         detection_result = self.detector.detect(key)
-        print(f"Detection result for key '{key}': {detection_result}")
+        # print(f"Detection result for key '{key}': {detection_result}")
         return detection_result
 
     def detect_silence(self):
