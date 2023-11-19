@@ -12,3 +12,4 @@ ffmpeg
 *.pyc
 lib/private/*
 data/README.md
+data/models/*
