@@ -180,7 +180,7 @@ def classification_consumer(audio, stream, classifier, persist_files, high_speed
             # long_comment = "Time: %0.2f - Prediction in: %0.2f - Winner: %s - Percentage: %0d - Frequency %0d                                        " % (seconds_playing, prediction_time, winner, probabilityDict[winner]['percent'], probabilityDict[winner]['frequency'])
             short_comment = "T %0.3f - [%0.6f%s %s] F:%0d P:%0d" % (
                 seconds_playing, probabilityDict[winner]['probability'], '', winner, frequency, probabilityDict[winner]['power'])
-            if (winner != "silence"):
+            if probabilityDict[winner]['probability'] > 0.0 and winner != "silence":
                 print(short_comment)
                 # asyncio.run_coroutine_threadsafe(
                 #     send_data_to_server(short_comment), new_loop)
