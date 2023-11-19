@@ -4,6 +4,7 @@ import time
 import aiohttp
 import asyncio
 import urllib.parse
+import time
 
 
 def start_loop(loop):
@@ -16,10 +17,10 @@ t = threading.Thread(target=start_loop, args=(new_loop,))
 t.start()
 
 
-async def send_data_to_server(data):
-    print(f"Sending data to server: {data}")
-    if "0.000000" not in data:
-        encoded_data = urllib.parse.quote(data)
+async def send_data_to_server(pattern, detected_sound_characteristics):
+    # Assuming detected_sound_characteristics is a dictionary with keys like 'power', 'percentage', etc.
+    if all(detected_sound_characteristics[key] >= pattern['threshold'][key] for key in pattern['threshold']):
+        encoded_data = urllib.parse.quote(pattern['sounds'][0])
         url = f"http://127.0.0.1:8001/receive_data?data={encoded_data}"
         try:
             async with aiohttp.ClientSession() as session:
@@ -28,13 +29,15 @@ async def send_data_to_server(data):
                         print(
                             f"Failed to send data, status code: {response.status}")
                     else:
-                        print(f"Data sent successfully: {data}")
+                        print(
+                            f"Data sent successfully: {pattern['sounds'][0]}")
         except Exception as e:
             print(f"Error sending data: {e}")
 
 
 class TutorialMode(BaseMode):
-
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
     patterns = [
         {
             'name': 'b',
@@ -54,7 +57,7 @@ class TutorialMode(BaseMode):
             'sounds': ['k'],
             'threshold': {
                 'power': 75000,
-                'percentage': 95,
+                'percentage': 70,
                 # 'frequency': 40,
             },
             'throttle': {
@@ -148,7 +151,7 @@ class TutorialMode(BaseMode):
             'sounds': ['pressurized hi hat'],
             'threshold': {
                 'power': 40000,
-                'percentage': 90,
+                'percentage': 80,
             },
             'throttle': {
                 'pressurized hi hat': 0.1
@@ -188,23 +191,43 @@ class TutorialMode(BaseMode):
     #         }
     #     }
     # ]
+    # original_thresholds = {
+    #     pattern['name']: pattern['threshold'].copy() for pattern in patterns}
+    # last_detection_time = {pattern['name']: 0 for pattern in patterns}
+
+    # @staticmethod
+    # def adjust_threshold_based_on_interval(pattern_name):
+    #     current_time = time.time()
+    #     time_since_last_detection = current_time - \
+    #         TutorialMode.last_detection_time.get(pattern_name, 0)
+    #     for pattern in TutorialMode.patterns:
+    #         if pattern['name'] == pattern_name:
+    #             if time_since_last_detection < 1 / 22:
+    #                 for key in pattern['threshold']:
+    #                     pattern['threshold'][key] *= 0.9
+    #             else:
+    #                 for key in pattern['threshold']:
+    #                     pattern['threshold'][key] = TutorialMode.original_thresholds[pattern_name][key]
+    #             TutorialMode.last_detection_time[pattern_name] = current_time
+    #             break
 
     def handle_sounds(self, dataDicts):
         tasks = []
         for pattern in self.patterns:
             detection_result = self.detect(pattern['name'])
-            print(
-                f"Checking pattern '{pattern['name']}': Detected = {detection_result}")
             if detection_result:
-                # Correctly calling the standalone function
+                # # Adjust threshold based on interval
+                # self.adjust_threshold_based_on_interval(pattern['name'])
+
+                detected_sound_characteristics = {
+                    key: pattern['threshold'][key] for key in pattern['threshold']}
                 task = asyncio.run_coroutine_threadsafe(
-                    send_data_to_server(pattern['sounds'][0]), new_loop)
+                    send_data_to_server(pattern, detected_sound_characteristics), new_loop)
                 tasks.append(task)
                 print(f"Task for pattern '{pattern['name']}' created")
 
-        # Optionally, you can wait for all tasks to complete
         for task in tasks:
-            task.result()  # This will wait for each task to complete
+            task.result()  # Wait for each task to complete
 
     async def send_data_and_adjust(self, pattern, new_loop):
         await send_data_to_server(pattern['sounds'][0])
