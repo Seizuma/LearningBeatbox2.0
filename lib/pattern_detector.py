@@ -183,13 +183,13 @@ class PatternDetector:
             return False
         elif action in self.patterns:
             throttle_result = self.patterns[action]['throttle_detect'](self)
-            print(
-                f"Throttle detection for action '{action}': {throttle_result}")
+            # print(
+            #     f"Throttle detection for action '{action}': {throttle_result}")
             if throttle_result:
                 return False
 
             detected = self.patterns[action]['detect'](self)
-            print(f"Pattern detection for action '{action}': {detected}")
+            # print(f"Pattern detection for action '{action}': {detected}")
             if detected:
                 self.tickActions.append(action)
                 self.patterns[action]['throttle_activate'](self)
