@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BeatBox Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'webapp/styles.css' %}" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">BeatBox</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/sounds">Sounds</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <h1>Welcome to BeatBox</h1>
+        <p>Explore the world of beatboxing with ease</p>
+        <a href="/sounds" class="btn">Get Started</a>
+    </header>
+    <footer>
+        <p>&copy; 2023 BeatBox. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

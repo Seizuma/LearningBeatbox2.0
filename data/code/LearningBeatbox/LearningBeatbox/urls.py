@@ -19,9 +19,11 @@ Including another URLconf
 from django.urls import path
 from webapp.views import receive_data
 from webapp.views import display_sounds
+from webapp.views import home
 
 urlpatterns = [
     # Other URL patterns...
+    path('', home, name='home'),
     path('receive_data', receive_data, name='receive_data'),
     path('sounds/', display_sounds, name='display_sounds')
 ]

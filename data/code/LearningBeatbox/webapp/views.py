@@ -42,3 +42,7 @@ def receive_data(request):
 def display_sounds(request):
     # Render a template with the latest sounds
     return render(request, "sounds.html", {"sounds": latest_sounds})
+
+
+def home(request):
+    return render(request, 'home.html')
