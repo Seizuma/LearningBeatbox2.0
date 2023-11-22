@@ -43,10 +43,8 @@ class TutorialMode(BaseMode):
             'name': 'b',
             'sounds': ['b'],
             'threshold': {
-                'power': 155000,
-                'frequency': 34,
-                'percentage': 95,
-                'below_frequency': 40,
+                'power': 550000,
+                'percentage': 90,
             },
             'throttle': {
                 'b': 0.1
@@ -56,8 +54,8 @@ class TutorialMode(BaseMode):
             'name': 'k',
             'sounds': ['k'],
             'threshold': {
-                'power': 75000,
-                'percentage': 95,
+                'power': 300000,
+                'percentage': 98,
                 # 'frequency': 40,
             },
             'throttle': {
@@ -68,8 +66,8 @@ class TutorialMode(BaseMode):
             'name': 'hi hat',
             'sounds': ['hi hat'],
             'threshold': {
-                'power': 60000,
-                'percentage': 95,
+                'power': 200000,
+                'percentage': 98,
             },
             'throttle': {
                 'hi hat': 0.05
@@ -79,8 +77,8 @@ class TutorialMode(BaseMode):
             'name': 'm',
             'sounds': ['m'],
             'threshold': {
-                'power': 80000,
-                'percentage': 95,
+                'power': 500000,
+                'percentage': 98,
             },
             'throttle': {
                 'm': 0.1
@@ -90,8 +88,8 @@ class TutorialMode(BaseMode):
             'name': 'throat bass',
             'sounds': ['throat bass'],
             'threshold': {
-                'power': 100000,
-                'percentage': 95,
+                'power': 650000,
+                'percentage': 98,
             },
             'continual_threshold': {
                 'power': 20000,
@@ -105,8 +103,8 @@ class TutorialMode(BaseMode):
             'name': 'lips oscilation (from pash kick)',
             'sounds': ['lips oscilation (from pash kick)'],
             'threshold': {
-                'power': 180000,
-                'percentage': 95,
+                'power': 1400000,
+                'percentage': 90,
             },
             'continual_threshold': {
                 'power': 20000,
@@ -120,8 +118,8 @@ class TutorialMode(BaseMode):
             'name': 'Fart bass (villain)',
             'sounds': ['Fart bass (villain)'],
             'threshold': {
-                'power': 180000,
-                'percentage': 90,
+                'power': 650000,
+                'percentage': 98,
             },
             'continual_threshold': {
                 'power': 20000,
@@ -135,8 +133,8 @@ class TutorialMode(BaseMode):
             'name': 'Vocalized lips oscilation',
             'sounds': ['Vocalized lips oscilation'],
             'threshold': {
-                'power': 180000,
-                'percentage': 95,
+                'power': 700000,
+                'percentage': 98,
             },
             'continual_threshold': {
                 'power': 20000,
@@ -150,8 +148,8 @@ class TutorialMode(BaseMode):
             'name': 'pressurized hi hat',
             'sounds': ['pressurized hi hat'],
             'threshold': {
-                'power': 40000,
-                'percentage': 95,
+                'power': 90000,
+                'percentage': 98,
             },
             'throttle': {
                 'pressurized hi hat': 0.1
@@ -161,8 +159,8 @@ class TutorialMode(BaseMode):
             'name': 'hollow lip roll',
             'sounds': ['hollow lip roll'],
             'threshold': {
-                'power': 60000,
-                'percentage': 95,
+                'power': 600000,
+                'percentage': 98,
             },
             'throttle': {
                 'hollow lip roll': 0.1
@@ -172,8 +170,8 @@ class TutorialMode(BaseMode):
             'name': 'lip roll (classic)',
             'sounds': ['lip roll (classic)'],
             'threshold': {
-                'power': 60000,
-                'percentage': 95,
+                'power': 400000,
+                'percentage': 98,
             },
             'throttle': {
                 'lip roll (classic)': 0.1
@@ -183,66 +181,14 @@ class TutorialMode(BaseMode):
             'name': 'Tutu (kim squeak)',
             'sounds': ['Tutu (kim squeak)'],
             'threshold': {
-                'power': 60000,
-                'percentage': 95,
+                'power': 200000,
+                'percentage': 98,
             },
             'throttle': {
                 'Tutu (kim squeak)': 0.1
             }
         }
     ]
-
-    # patternsContinuous = [
-    #     {
-    #         'name': 'throat bass',
-    #         'sounds': ['throat bass'],
-    #         'threshold': {
-    #             'power': 100000,
-    #             'percentage': 90,
-    #         },
-    #         'continual_threshold': {
-    #             'power': 20000,
-    #             'percentage': 60,
-    #         },
-    #         'throttle': {
-    #             'throat bass': 0.1
-    #         },
-    #     },
-    #     {
-    #         'name': 'lips oscilation (from pash kick)',
-    #         'sounds': ['lips oscilation (from pash kick)'],
-    #         'threshold': {
-    #             'power': 180000,
-    #             'percentage': 90,
-    #         },
-    #         'continual_threshold': {
-    #             'power': 20000,
-    #             'percentage': 60,
-    #         },
-    #         'throttle': {
-    #             'lips oscilation (from pash kick)': 0.1
-    #         }
-    #     }
-    # ]
-    # original_thresholds = {
-    #     pattern['name']: pattern['threshold'].copy() for pattern in patterns}
-    # last_detection_time = {pattern['name']: 0 for pattern in patterns}
-
-    # @staticmethod
-    # def adjust_threshold_based_on_interval(pattern_name):
-    #     current_time = time.time()
-    #     time_since_last_detection = current_time - \
-    #         TutorialMode.last_detection_time.get(pattern_name, 0)
-    #     for pattern in TutorialMode.patterns:
-    #         if pattern['name'] == pattern_name:
-    #             if time_since_last_detection < 1 / 22:
-    #                 for key in pattern['threshold']:
-    #                     pattern['threshold'][key] *= 0.9
-    #             else:
-    #                 for key in pattern['threshold']:
-    #                     pattern['threshold'][key] = TutorialMode.original_thresholds[pattern_name][key]
-    #             TutorialMode.last_detection_time[pattern_name] = current_time
-    #             break
 
     def handle_sounds(self, dataDicts):
         tasks = []
