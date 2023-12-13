@@ -134,19 +134,6 @@ def action_consumer(stream, classifier, dataDicts, persist_replay, replay_file, 
         listening_state['stream'].stop_stream()
         listening_state['currently_recording'] = False
 
-#    async def send_data_to_server(data):
-#         if "0.000000" not in data:
-#             encoded_data = urllib.parse.quote(data)  # URL-encode the data
-#             url = f"http://127.0.0.1:8001/receive_data?data={encoded_data}"
-#             try:
-#                 async with aiohttp.ClientSession() as session:
-#                     async with session.get(url) as response:
-#                         if response.status != 200:
-#                             print("Failed to send data to server, status code:",
-#                                   response.status)
-#             except Exception as e:
-#                 print("Error sending data to server:", e)
-
 
 def classification_consumer(audio, stream, classifier, persist_files, high_speed):
     audio_frames = []
