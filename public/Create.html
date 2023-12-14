@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Beatbox Pattern</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #F0F0F0;
+            color: #003366;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #FF6600;
+        }
+
+        #dataOutput {
+            background-color: white;
+            border: 1px solid #003366;
+            padding: 15px;
+            margin-top: 20px;
+            height: 300px;
+            overflow: auto;
+        }
+
+        button {
+            background-color: #FF6600;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #E65C00;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Create Your Beatbox Pattern</h1>
+    <div id="dataOutput">Data output...</div>
+    <button id="goBack">Go Back</button>
+    <script>
+        const dataOutput = document.getElementById('dataOutput');
+
+        window.electronAPI.onPythonData((data) => {
+            dataOutput.textContent += data + '\n';
+        });
+
+        window.electronAPI.startPython();
+
+        document.getElementById('goBack').addEventListener('click', () => {
+            window.electronAPI.stopPython();
+            window.history.back();
+        });
+    </script>
+</body>
+
+</html>
