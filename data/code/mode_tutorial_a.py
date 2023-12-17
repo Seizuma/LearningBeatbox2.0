@@ -1,38 +1,7 @@
 from config.config import *
 from lib.modes.base_mode import *
-import time
-import aiohttp
 import asyncio
-import urllib.parse
 import time
-
-
-def start_loop(loop):
-    asyncio.set_event_loop(loop)
-    loop.run_forever()
-
-
-new_loop = asyncio.new_event_loop()
-t = threading.Thread(target=start_loop, args=(new_loop,))
-t.start()
-
-
-async def send_data_to_server(pattern, detected_sound_characteristics):
-    # Assuming detected_sound_characteristics is a dictionary with keys like 'power', 'percentage', etc.
-    if all(detected_sound_characteristics[key] >= pattern['threshold'][key] for key in pattern['threshold']):
-        encoded_data = urllib.parse.quote(pattern['sounds'][0])
-        url = f"http://127.0.0.1:8001/receive_data?data={encoded_data}"
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url) as response:
-                    if response.status != 200:
-                        print(
-                            f"Failed to send data, status code: {response.status}")
-                    else:
-                        print(
-                            f"Data sent successfully: {pattern['sounds'][0]}")
-        except Exception as e:
-            print(f"Error sending data: {e}")
 
 
 class TutorialMode(BaseMode):
@@ -187,31 +156,57 @@ class TutorialMode(BaseMode):
             'throttle': {
                 'Tutu (kim squeak)': 0.1
             }
+        },
+        {
+            'name': 'K Rimshot',
+            'sounds': ['K Rimshot'],
+            'threshold': {
+                'power': 200000,
+                'percentage': 98,
+            },
+            'throttle': {
+                'K Rimshot': 0.1
+            }
+        },
+        {
+            'name': 'Palet K snare',
+            'sounds': ['Palet K snare'],
+            'threshold': {
+                'power': 200000,
+                'percentage': 98,
+            },
+            'throttle': {
+                'Palet K Snare': 0.1
+            }
+        },
+        {
+            'name': 'Vibration Bass',
+            'sounds': ['Vibration Bass'],
+            'threshold': {
+                'power': 200000,
+                'percentage': 98,
+            },
+            'continual_threshold': {
+                'power': 20000,
+                'percentage': 60,
+            },
+            'throttle': {
+                'Vibration Bass': 0.1
+            }
         }
     ]
 
     def handle_sounds(self, dataDicts):
-        tasks = []
         for pattern in self.patterns:
             detection_result = self.detect(pattern['name'])
             if detection_result:
-                # # Adjust threshold based on interval
-                # self.adjust_threshold_based_on_interval(pattern['name'])
-
                 detected_sound_characteristics = {
                     key: pattern['threshold'][key] for key in pattern['threshold']}
-                task = asyncio.run_coroutine_threadsafe(
-                    send_data_to_server(pattern, detected_sound_characteristics), new_loop)
-                tasks.append(task)
-                print(f"Task for pattern '{pattern['name']}' created")
+                if all(detected_sound_characteristics[key] >= pattern['threshold'][key] for key in pattern['threshold']):
+                    print(f"Detected: {pattern['name']}")
 
         # for task in tasks:
         #     task.result()  # Wait for each task to complete
-
-    async def send_data_and_adjust(self, pattern, new_loop):
-        await send_data_to_server(pattern['sounds'][0])
-        if pattern['is_continuous']:
-            self.adjust_for_continuous_sounds(pattern)
 
     def adjust_for_continuous_sounds(self, pattern):
         # Adjust the pattern if it's continuous

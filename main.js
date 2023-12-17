@@ -28,14 +28,28 @@ function createWindow() {
 
 ipcMain.on('start-python', () => {
     if (!pythonProcess) {
-        pythonProcess = spawn('python', ['play.py']);
-        // Ajouter des écouteurs pour stdout et stderr si nécessaire
+        pythonProcess = spawn('python', ['play.py']); // Lancez play.py qui doit inclure ou appeler mode_tutorial_a.py
+
         pythonProcess.stdout.on('data', (data) => {
-            // Envoyer les données au processus de rendu
-            mainWindow.webContents.send('python-data', data.toString());
+            const output = data.toString().trim();
+            // Supposons que mode_tutorial_a.py imprime des lignes commençant par "Detected:"
+            // pour les sons qu'il détecte.
+            if (output.startsWith("Detected:")) {
+                mainWindow.webContents.send('python-data', output);
+            }
+        });
+
+        pythonProcess.stderr.on('data', (data) => {
+            console.error(`stderr: ${data}`);
+        });
+
+        pythonProcess.on('close', (code) => {
+            console.log(`child process exited with code ${code}`);
+            pythonProcess = null;
         });
     }
 });
+
 
 ipcMain.on('stop-python', () => {
     if (pythonProcess) {

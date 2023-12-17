@@ -15,3 +15,5 @@ data/README.md
 data/models/*
 data/code/LearningBeatbox/collected_static/*
 node_modules/*
+data/recordings/*
+data/models/*
