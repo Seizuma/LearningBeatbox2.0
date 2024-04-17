@@ -18,6 +18,28 @@
             color: #FF6600;
         }
 
+        #partition {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border: 1px solid #003366;
+            padding: 15px;
+            margin-top: 20px;
+            height: 100px;
+            overflow: auto;
+        }
+
+        .note {
+            font-size: 1.5em;
+            margin: 0 5px;
+        }
+
+        .tempo {
+            font-size: 1em;
+            color: #FF6600;
+        }
+
         #dataOutput {
             background-color: white;
             border: 1px solid #003366;
@@ -46,13 +68,24 @@
 
 <body>
     <h1>Create Your Beatbox Pattern</h1>
-    <div id="dataOutput">Data output...</div>
+    <div id="tempo" class="tempo">Tempo: 120 BPM</div>
+    <div id="partition"></div>
     <button id="goBack">Go Back</button>
+    <button id="clearPartition">Clear</button>
     <script>
-        const dataOutput = document.getElementById('dataOutput');
+        const partition = document.getElementById('partition');
+        const tempo = document.getElementById('tempo');
 
         window.electronAPI.onPythonData((data) => {
-            dataOutput.textContent += data + '\n';
+            const sound = data.replace('Detected: ', '');
+            const noteElement = document.createElement('div');
+            noteElement.className = 'note';
+
+            // Create text node for sound
+            const textNode = document.createTextNode(sound);
+            noteElement.appendChild(textNode);
+
+            partition.appendChild(noteElement);
         });
 
         window.electronAPI.startPython();
@@ -60,6 +93,9 @@
         document.getElementById('goBack').addEventListener('click', () => {
             window.electronAPI.stopPython();
             window.history.back();
+        });
+        document.getElementById('clearPartition').addEventListener('click', () => {
+            partition.innerHTML = ''; // Clear the partition div
         });
     </script>
 </body>

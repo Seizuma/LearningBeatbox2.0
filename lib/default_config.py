@@ -64,9 +64,9 @@ PYTORCH_AVAILABLE = pytorch_spec is not None
 IS_WINDOWS = sys.platform == 'win32'
 
 dragonfly_spec = importlib.util.find_spec("dragonfly")
-if( SPEECHREC_ENABLED == True ):
+if (SPEECHREC_ENABLED == True):
     SPEECHREC_ENABLED = dragonfly_spec is not None
-    
+
 BACKGROUND_LABEL = "silence"
 
 # Detection strategies

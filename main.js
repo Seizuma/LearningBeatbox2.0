@@ -7,11 +7,10 @@ let pythonProcess = null;
 
 function createWindow() {
     mainWindow = new BrowserWindow({
-        // ... vos options ...
         webPreferences: {
             nodeIntegration: false,
             contextIsolation: true,
-            preload: path.join(__dirname, 'preload.js') // Vous pouvez utiliser un script de préchargement pour plus de sécurité
+            preload: path.join(__dirname, 'preload.js')
         }
     });
 
@@ -28,14 +27,13 @@ function createWindow() {
 
 ipcMain.on('start-python', () => {
     if (!pythonProcess) {
-        pythonProcess = spawn('python', ['play.py']); // Lancez play.py qui doit inclure ou appeler mode_tutorial_a.py
-
+        pythonProcess = spawn('python', ['play.py']);
         pythonProcess.stdout.on('data', (data) => {
             const output = data.toString().trim();
-            // Supposons que mode_tutorial_a.py imprime des lignes commençant par "Detected:"
-            // pour les sons qu'il détecte.
             if (output.startsWith("Detected:")) {
-                mainWindow.webContents.send('python-data', output);
+                // Envoyer uniquement le nom du son sans le préfixe
+                const soundName = output.replace('Detected: ', '');
+                mainWindow.webContents.send('python-data', soundName);
             }
         });
 
