@@ -77,11 +77,11 @@
         const tempo = document.getElementById('tempo');
 
         window.electronAPI.onPythonData((data) => {
-            const sound = data.replace('Detected: ', '');
+            const sound = data; // Pas besoin de remplacer, car nous avons déjà nettoyé les données
             const noteElement = document.createElement('div');
             noteElement.className = 'note';
 
-            // Create text node for sound
+            // Créez un nœud de texte pour le son
             const textNode = document.createTextNode(sound);
             noteElement.appendChild(textNode);
 
@@ -95,9 +95,10 @@
             window.history.back();
         });
         document.getElementById('clearPartition').addEventListener('click', () => {
-            partition.innerHTML = ''; // Clear the partition div
+            partition.innerHTML = ''; // Effacer le contenu de la partition
         });
     </script>
+
 </body>
 
 </html>

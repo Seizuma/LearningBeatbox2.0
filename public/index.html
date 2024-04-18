@@ -18,6 +18,34 @@
             color: #FF6600;
         }
 
+        #partition,
+        #dataOutput {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border: 1px solid #003366;
+            padding: 15px;
+            margin-top: 20px;
+            height: 100px;
+            /* partition */
+            overflow: auto;
+        }
+
+        #dataOutput {
+            height: 300px;
+        }
+
+        .note {
+            font-size: 1.5em;
+            margin: 0 5px;
+        }
+
+        .tempo {
+            font-size: 1em;
+            color: #FF6600;
+        }
+
         button {
             background-color: #FF6600;
             color: white;
@@ -32,18 +60,62 @@
         button:hover {
             background-color: #E65C00;
         }
+
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Welcome to LearningBeatbox</h1>
-    <p>Explore the world of beatbox and create your own patterns!</p>
-    <button id="goToCreate">Start Creating</button>
+    <div id="home">
+        <h1>Welcome to LearningBeatbox</h1>
+        <p>Explore the world of beatbox and create your own patterns!</p>
+        <button id="goToCreate">Start Creating</button>
+    </div>
+    <div id="create" class="hidden">
+        <h1>Create Your Beatbox Pattern</h1>
+        <div id="tempo" class="tempo">Tempo: 120 BPM</div>
+        <div id="partition"></div>
+        <button id="goBack">Go Back</button>
+        <button id="clearPartition">Clear</button>
+    </div>
     <script>
+        const home = document.getElementById('home');
+        const create = document.getElementById('create');
+
         document.getElementById('goToCreate').addEventListener('click', () => {
-            window.location.href = 'Create.html';
+            home.classList.add('hidden');
+            create.classList.remove('hidden');
+            if (window.electronAPI) {
+                window.electronAPI.startPython(); // Démarre le processus Python lors du passage à la création
+            }
         });
+
+        document.getElementById('goBack').addEventListener('click', () => {
+            create.classList.add('hidden');
+            home.classList.remove('hidden');
+            if (window.electronAPI) {
+                window.electronAPI.stopPython(); // Arrête le processus Python lors du retour à l'accueil
+            }
+        });
+
+        document.getElementById('clearPartition').addEventListener('click', () => {
+            const partition = document.getElementById('partition');
+            partition.innerHTML = ''; // Effacer le contenu de la partition
+        });
+
+        // Écouter les données du processus Python
+        if (window.electronAPI) {
+            window.electronAPI.onPythonData((data) => {
+                const noteElement = document.createElement('div');
+                noteElement.className = 'note';
+                noteElement.textContent = data; // Afficher la donnée reçue comme note
+                document.getElementById('partition').appendChild(noteElement);
+            });
+        }
     </script>
+
 </body>
 
 </html>
