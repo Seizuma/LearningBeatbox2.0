@@ -135,53 +135,66 @@ def action_consumer(stream, classifier, dataDicts, persist_replay, replay_file, 
         listening_state['currently_recording'] = False
 
 
-def classification_consumer(audio, stream, classifier, persist_files, high_speed):
+def classification_consumer(audio, stream, classifier, persist_files, high_speed, replay_file):
     audio_frames = []
     dataDicts = []
-    for i in range(0, PREDICTION_LENGTH):
+    for i in range(PREDICTION_LENGTH):
         dataDict = {}
         for directoryname in classifier.classes_:
-            dataDict[directoryname] = {
-                'percent': 0, 'intensity': 0, 'frequency': 0, 'winner': False}
+            dataDict[directoryname] = {'percent': 0, 'intensity': 0, 'frequency': 0, 'winner': False}
         dataDicts.append(dataDict)
 
     starttime = time.time()
     global listening_state
 
     try:
-        while (listening_state['currently_recording'] == True):
-            probabilityDict, predicted, audio_frames, highestintensity, frequency, wavData = classify_audioframes(
-                listening_state['audioQueue'], audio_frames, classifier, high_speed)
+        with open(replay_file, 'w') as replay_csv:
+            # Dynamically generate the header based on classifier classes
+            header = ["time", "winner", "intensity", "frequency", "power", "actions", "buffer"]
+            header.extend(classifier.classes_)
+            replay_csv.write(",".join(header) + "\n")
 
-            # Skip if a prediction could not be made
-            if (probabilityDict == False):
-                time.sleep(classifier.get_setting(
-                    'RECORD_SECONDS', RECORD_SECONDS) / 3)
-                continue
+            while listening_state['currently_recording']:
+                probabilityDict, predicted, audio_frames, highestintensity, frequency, wavData = classify_audioframes(
+                    listening_state['audioQueue'], audio_frames, classifier, high_speed)
 
-            seconds_playing = time.time() - starttime
+                if not probabilityDict:
+                    time.sleep(classifier.get_setting('RECORD_SECONDS', RECORD_SECONDS) / 3)
+                    continue
 
-            winner = classifier.classes_[predicted]
-            prediction_time = time.time() - starttime - seconds_playing
+                seconds_playing = time.time() - starttime
+                winner = classifier.classes_[predicted]
+                prediction_time = time.time() - starttime - seconds_playing
 
-            # long_comment = "Time: %0.2f - Prediction in: %0.2f - Winner: %s - Percentage: %0d - Frequency %0d                                        " % (seconds_playing, prediction_time, winner, probabilityDict[winner]['percent'], probabilityDict[winner]['frequency'])
-            short_comment = "T %0.3f - [%0.6f%s %s] F:%0d P:%0d" % (
-                seconds_playing, probabilityDict[winner]['probability'], '', winner, frequency, probabilityDict[winner]['power'])
-            if probabilityDict[winner]['probability'] > 0.0 and winner != "silence":
-                print(short_comment)
-                # asyncio.run_coroutine_threadsafe(
-                #     send_data_to_server(short_comment), new_loop)
+                short_comment = f"T {seconds_playing:.3f} - [{probabilityDict[winner]['probability']:.6f} {winner}] F:{frequency} P:{probabilityDict[winner]['power']}"
+                if winner != "silence":
+                    print(short_comment)
 
-            listening_state['classifierQueue'].put(probabilityDict)
-            if (persist_files):
-                audioFile = wave.open(
-                    REPLAYS_AUDIO_FOLDER + "/%0.3f.wav" % (seconds_playing), 'wb')
-                audioFile.setnchannels(
-                    classifier.get_setting('CHANNELS', CHANNELS))
-                audioFile.setsampwidth(audio.get_sample_size(FORMAT))
-                audioFile.setframerate(classifier.get_setting('RATE', RATE))
-                audioFile.writeframes(wavData)
-                audioFile.close()
+                listening_state['classifierQueue'].put(probabilityDict)
+
+                if persist_files:
+                    # Ensure each row has the same number of columns as the header
+                    row = [
+                        seconds_playing,
+                        winner,
+                        highestintensity,
+                        frequency,
+                        probabilityDict[winner]['power'],
+                        '0',  # actions
+                        '0',  # buffer
+                    ]
+                    row.extend([probabilityDict.get(sound, {'probability': 0})['probability'] for sound in classifier.classes_])
+                    row = [str(item) if item != '' else '0' for item in row]
+                    if len(row) == len(header):
+                        replay_csv.write(",".join(row) + "\n")
+
+                    audioFile = wave.open(REPLAYS_AUDIO_FOLDER + f"/{seconds_playing:.3f}.wav", 'wb')
+                    audioFile.setnchannels(classifier.get_setting('CHANNELS', CHANNELS))
+                    audioFile.setsampwidth(audio.get_sample_size(FORMAT))
+                    audioFile.setframerate(classifier.get_setting('RATE', RATE))
+                    audioFile.writeframes(wavData)
+                    audioFile.close()
+                    
     except Exception as e:
         print("----------- ERROR DURING AUDIO CLASSIFICATION -------------- ")
         exc_type, exc_value, exc_tb = sys.exc_info()
@@ -190,12 +203,22 @@ def classification_consumer(audio, stream, classifier, persist_files, high_speed
         listening_state['currently_recording'] = False
 
 
+
+
+
+
+
 def nonblocking_record(in_data, frame_count, time_info, status):
     global listening_state
     listening_state['audioQueue'].put(in_data)
 
     return in_data, pyaudio.paContinue
 
+
+def stop_listening():
+    global listening_state
+    listening_state['currently_recording'] = False
+    ipc_manager.setParrotState("not_running")
 
 def start_nonblocking_listen_loop(classifier, mode_switcher=False, persist_replay=False, persist_files=False, amount_of_seconds=-1, high_speed=False):
     global listening_state
@@ -209,7 +232,6 @@ def start_nonblocking_listen_loop(classifier, mode_switcher=False, persist_repla
         'last_audio_update': time.time()
     }
 
-    # Get a minimum of these elements of data dictionaries
     dataDicts = []
     audio_frames = []
     for i in range(0, PREDICTION_LENGTH):
@@ -220,28 +242,23 @@ def start_nonblocking_listen_loop(classifier, mode_switcher=False, persist_repla
         dataDicts.append(dataDict)
 
     starttime = time.time()
-    replay_file = REPLAYS_FOLDER + "/replay_" + str(int(starttime)) + ".csv"
+    replay_file = REPLAYS_FOLDER + f"/replay_{int(starttime)}.csv"
 
     infinite_duration = amount_of_seconds == -1
     audio = pyaudio.PyAudio()
-    if (validate_microphone_input(audio) == False):
+    if not validate_microphone_input(audio):
         return None
 
-    if (infinite_duration):
-        print("Listening...")
-    else:
-        print("Listening for " + str(amount_of_seconds) + " seconds...")
-    print("")
+    print("Listening..." if infinite_duration else f"Listening for {amount_of_seconds} seconds...")
 
     listening_state['stream'] = audio.open(format=FORMAT, channels=classifier.get_setting('CHANNELS', CHANNELS),
                                            rate=classifier.get_setting('RATE', RATE), input=True,
                                            input_device_index=INPUT_DEVICE_INDEX,
-                                           frames_per_buffer=round(classifier.get_setting('RATE', RATE) * classifier.get_setting(
-                                               'RECORD_SECONDS', RECORD_SECONDS) / classifier.get_setting('SLIDING_WINDOW_AMOUNT', SLIDING_WINDOW_AMOUNT)),
+                                           frames_per_buffer=round(classifier.get_setting('RATE', RATE) * classifier.get_setting('RECORD_SECONDS', RECORD_SECONDS) / classifier.get_setting('SLIDING_WINDOW_AMOUNT', SLIDING_WINDOW_AMOUNT)),
                                            stream_callback=nonblocking_record)
 
     classificationConsumer = threading.Thread(name='classification_consumer', target=classification_consumer, args=(
-        audio, listening_state['stream'], classifier, persist_files, high_speed))
+        audio, listening_state['stream'], classifier, persist_files, high_speed, replay_file))
     classificationConsumer.setDaemon(True)
     classificationConsumer.start()
 
@@ -254,15 +271,16 @@ def start_nonblocking_listen_loop(classifier, mode_switcher=False, persist_repla
     listening_state['stream'].start_stream()
     ipc_manager.setParrotState("running")
 
-    while listening_state['currently_recording'] == True and listening_state['restart_listen_loop'] == False:
+    while listening_state['currently_recording'] and not listening_state['restart_listen_loop']:
         currenttime = time.time()
 
         with KeyPoller() as key_poller:
-            if (not infinite_duration and currenttime - starttime > amount_of_seconds or manage_loop_state("running", listening_state, mode_switcher, currenttime, STATE_POLLING_THRESHOLD, key_poller) == False):
+            if not infinite_duration and currenttime - starttime > amount_of_seconds:
+                listening_state['currently_recording'] = False
+            if not manage_loop_state("running", listening_state, mode_switcher, currenttime, STATE_POLLING_THRESHOLD, key_poller):
                 listening_state['currently_recording'] = False
         time.sleep(STATE_POLLING_THRESHOLD)
 
-    # Stop all the streams and different threads
     listening_state['stream'].stop_stream()
     listening_state['stream'].close()
     audio.terminate()
@@ -271,9 +289,7 @@ def start_nonblocking_listen_loop(classifier, mode_switcher=False, persist_repla
     classificationConsumer.join()
     actionConsumer.join()
 
-    # Restarting the listening loop is required when we are dealing with a different classifier
-    # As different classifiers might have different audio requirements
-    if (listening_state['restart_listen_loop'] == True):
+    if listening_state['restart_listen_loop']:
         classifier = load_running_classifier(ipc_manager.getClassifier())
         listening_state['restart_listen_loop'] = False
         listening_state['currently_recording'] = True
