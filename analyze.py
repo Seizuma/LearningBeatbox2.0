@@ -40,11 +40,12 @@ def analyze_replay(replay_file):
         # Filtrer les sons détectés en dessous de 80% d'intensité
         data = data[data['intensity'] >= 80]
 
-        # Filtrer les sons détectés en dessous de 100 d'intensité pour éliminer les faux positifs
-        data = data[data['intensity'] >= 100]
+        # Filtrer les sons détectés en dessous de 100 d'intensité pour éliminer les faux positifs (sauf pour 'b')
+        data = data[(data['intensity'] >= 100) | (data['winner'] == 'b')]
 
-        # Filtrer les sons détectés en dessous de certains seuils de fréquence et de puissance
-        data = data[(data['frequency'] >= 100) & (data['power'] >= 1000)]
+        # Filtrer les sons détectés en dessous de certains seuils de fréquence et de puissance (sauf pour 'b')
+        data = data[(data['frequency'] >= 100) | (data['winner'] == 'b')]
+        data = data[(data['power'] >= 1000) | (data['winner'] == 'b')]
         print(f"Filtered data with intensity, frequency, and power thresholds:\n{data.head()}")
 
         # Filtrer les sons détectés en dessous de 0.300s
@@ -66,6 +67,36 @@ def analyze_replay(replay_file):
         data['time'] = data['time'].astype(float)
         data = filter_close_sounds(data)
         print(f"Filtered data with time threshold:\n{data.head()}")
+
+        # Grouping similar detections and calculating weighted average
+        def group_and_average(data, time_threshold=0.050):
+            grouped_data = []
+            temp_group = []
+
+            for index, row in data.iterrows():
+                if not temp_group or row['time'] - temp_group[-1]['time'] <= time_threshold:
+                    temp_group.append(row)
+                else:
+                    if temp_group:
+                        grouped_data.append(temp_group)
+                    temp_group = [row]
+
+            if temp_group:
+                grouped_data.append(temp_group)
+
+            averaged_data = []
+            for group in grouped_data:
+                df_group = pd.DataFrame(group)
+                averaged_row = df_group.iloc[0].copy()
+                averaged_row['intensity'] = df_group['intensity'].mean()
+                averaged_row['frequency'] = df_group['frequency'].mean()
+                averaged_row['power'] = df_group['power'].mean()
+                averaged_data.append(averaged_row)
+
+            return pd.DataFrame(averaged_data)
+
+        data = group_and_average(data)
+        print(f"Grouped and averaged data:\n{data.head()}")
 
         # Déterminer la qualité des sons détectés
         def determine_quality(row):
@@ -92,6 +123,12 @@ def analyze_replay(replay_file):
             bad_quality_count=('quality', lambda x: (x == 'bad').sum()),
             neutral_quality_count=('quality', lambda x: (x == 'neutral').sum())
         ).reset_index()
+
+        # Ajouter les unités
+        stats['avg_intensity'] = stats['avg_intensity'].apply(lambda x: f"{x:.2f} %")
+        stats['avg_frequency'] = stats['avg_frequency'].apply(lambda x: f"{x:.2f} Hz")
+        stats['avg_power'] = stats['avg_power'].apply(lambda x: f"{x:.2f} W")
+
         print(f"Stats calculated:\n{stats}")
 
         # Calculer la précision globale
