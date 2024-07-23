@@ -15,9 +15,9 @@ class TutorialMode(BaseMode):
             'name': 'b',
             'sounds': ['b'],
             'threshold': {
-                    'power': 400000,
-                    'percentage': 98,
-                    'frequency': 35.44,
+                    'power': 695912,
+                    'percentage': 83.77,
+                    'frequency': 36.17,
             },
             'throttle': {
                 'b': 0.1
@@ -27,8 +27,8 @@ class TutorialMode(BaseMode):
             'name': 'd (from bdb)',
             'sounds': ['d (from bdb)'],
             'threshold': {
-                    'power': 410000,
-                    'percentage': 98,
+                    'power': 200000,
+                    'percentage': 83,
                     'frequency': 36,
             },
             'throttle': {
